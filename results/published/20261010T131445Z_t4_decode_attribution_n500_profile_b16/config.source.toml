@@ -1,0 +1,14 @@
+schema_version = 1
+model_id = "Qwen/Qwen2.5-0.5B-Instruct"
+model_revision = "7ae557604adf67be50417f59c2c2f167def9a775"
+tokenizer_revision = "7ae557604adf67be50417f59c2c2f167def9a775"
+prompt_recipe = "city_planning_qwen_chat_v1"
+context_lengths = [32, 64, 128, 250, 500]
+batch_sizes = [1, 2, 4, 8]
+dtype = "float16"
+warmup_runs_per_phase = 5
+measured_runs_per_phase = 30
+phases = ["prefill", "cached_decode"]
+decode_tokens_per_request = 1
+use_cache = true
+logits_to_keep = 1

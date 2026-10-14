@@ -1,0 +1,21 @@
+{
+  "batch_size": 32,
+  "kernel_name": "void at::native::unrolled_elementwise_kernel<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase &)::[lambda() (instance 3)]::operator ()() const::[lambda() (instance 7)]::operator ()() const::[lambda(float) (instance 1)], std::array<char *, (unsigned long)2>, (int)4, TrivialOffsetCalculator<(int)1, unsigned int>, TrivialOffsetCalculator<(int)1, unsigned int>, at::native::memory::LoadWithCast<(int)1>, at::native::memory::StoreWithCast<(int)1>>(int, T1, T2, T4, T5, T6, T7)",
+  "kernel_id": "0",
+  "grid": [
+    4008,
+    1,
+    1
+  ],
+  "selection_validated": true,
+  "validated_workload_runs": [
+    "/capture/project/runs/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_convert_b32_workloads/20261011T170543Z_profile_forward_phases_c1da7579",
+    "/capture/project/runs/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_convert_b32_workloads/20261011T170840Z_profile_forward_phases_6cb2cc66",
+    "/capture/project/runs/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_convert_b32_workloads/20261011T171137Z_profile_forward_phases_5fad4e76",
+    "/capture/project/runs/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_convert_b32_workloads/20261011T171434Z_profile_forward_phases_74fc3df0",
+    "/capture/project/runs/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_convert_b32_workloads/20261011T171731Z_profile_forward_phases_ea0686e8",
+    "/capture/project/runs/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_convert_b32_workloads/20261011T172029Z_profile_forward_phases_f9a2c5a6",
+    "/capture/project/runs/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_convert_b32_workloads/20261011T172326Z_profile_forward_phases_6471ada1",
+    "/capture/project/runs/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_convert_b32_workloads/20261011T172623Z_profile_forward_phases_c505a35e"
+  ]
+}

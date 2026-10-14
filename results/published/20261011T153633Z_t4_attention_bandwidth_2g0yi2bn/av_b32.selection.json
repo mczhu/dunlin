@@ -1,0 +1,21 @@
+{
+  "batch_size": 32,
+  "kernel_name": "std::enable_if<!T7, void>::type internal::gemvx::kernel<int, int, float, float, float, float, (bool)0, (bool)1, (bool)0, (bool)0, (int)7, (bool)0, cublasGemvParamsEx<int, cublasGemvTensorStridedBatched<const float>, cublasGemvTensorStridedBatched<const float>, cublasGemvTensorStridedBatched<float>, float>>(T13)",
+  "kernel_id": "0",
+  "grid": [
+    2,
+    1,
+    448
+  ],
+  "selection_validated": true,
+  "validated_workload_runs": [
+    "/capture/project/runs/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/av_b32_workloads/20261011T163703Z_profile_forward_phases_99231570",
+    "/capture/project/runs/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/av_b32_workloads/20261011T163741Z_profile_forward_phases_62409383",
+    "/capture/project/runs/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/av_b32_workloads/20261011T163819Z_profile_forward_phases_12d8e8dc",
+    "/capture/project/runs/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/av_b32_workloads/20261011T163857Z_profile_forward_phases_e9eccdd2",
+    "/capture/project/runs/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/av_b32_workloads/20261011T163935Z_profile_forward_phases_17489059",
+    "/capture/project/runs/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/av_b32_workloads/20261011T164012Z_profile_forward_phases_4fa7c9af",
+    "/capture/project/runs/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/av_b32_workloads/20261011T164050Z_profile_forward_phases_231a4e18",
+    "/capture/project/runs/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/av_b32_workloads/20261011T164127Z_profile_forward_phases_998c52b2"
+  ]
+}

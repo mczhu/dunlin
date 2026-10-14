@@ -1,0 +1,171 @@
+==WARNING== Note: Running with uncontrolled GPU caches. Profiling results may be inconsistent.
+==WARNING== Note: Running with unmodified GPU clocks. If not controlled otherwise, profiling results may be inconsistent.
+==PROF== Connected to process 6224 (/capture/python/cpython-3.14.7-linux-x86_64-gnu/bin/python3.14)
+2026-10-11 15:36:39,761 INFO Starting profile; phase=cached_decode, run_dir: /capture/project/runs/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b16_workloads/20261011T153639Z_profile_forward_phases_7112a2df
+2026-10-11 15:36:39,762 INFO Loading Qwen/Qwen2.5-0.5B-Instruct on cuda:0 (torch.float16); batch_size=16, input_tokens=500
+2026-10-11 15:36:39,809 INFO HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-0.5B-Instruct/tree/7ae557604adf67be50417f59c2c2f167def9a775/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-10-11 15:36:39,829 INFO HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-0.5B-Instruct/tree/7ae557604adf67be50417f59c2c2f167def9a775?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-10-11 15:36:40,419 INFO HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-0.5B-Instruct "HTTP/1.1 200 OK"
+
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]
+Loading weights:  31%|███       | 89/290 [00:00<00:00, 855.40it/s]
+Loading weights:  63%|██████▎   | 183/290 [00:00<00:00, 827.49it/s]
+Loading weights:  96%|█████████▌| 279/290 [00:00<00:00, 860.98it/s]
+Loading weights: 100%|██████████| 290/290 [00:00<00:00, 886.01it/s]
+2026-10-11 15:36:41,735 INFO Workload loaded; recording metadata
+2026-10-11 15:36:42,056 INFO cached_decode: warming up (5 runs)
+2026-10-11 15:37:01,162 INFO cached_decode: running initial capture
+2026-10-11 15:37:04,227 INFO cached_decode: running diagnostic capture
+==PROF== Profiling "void gemv2T_kernel_val<int, int, float, float, float, float, (int)128, (int)16, (int)2, (int)2, (bool)0, (bool)0, cublasGemvParamsEx<int, cublasGemvTensorStridedBatched<const float>, cublasGemvTensorStridedBatched<const float>, cublasGemvTensorStridedBatched<float>, float>>(T13, T6, T6)": Application replay pass 1
+2026-10-11 15:37:05,612 INFO Capture complete; running reference forward and validating
+2026-10-11 15:37:06,687 INFO Profile complete; artifacts written to /capture/project/runs/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b16_workloads/20261011T153639Z_profile_forward_phases_7112a2df
+run_dir: /capture/project/runs/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b16_workloads/20261011T153639Z_profile_forward_phases_7112a2df
+==PROF== Disconnected from process 6224
+==PROF== Connected to process 6269 (/capture/python/cpython-3.14.7-linux-x86_64-gnu/bin/python3.14)
+2026-10-11 15:37:13,153 INFO Starting profile; phase=cached_decode, run_dir: /capture/project/runs/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b16_workloads/20261011T153713Z_profile_forward_phases_45a769e7
+2026-10-11 15:37:13,153 INFO Loading Qwen/Qwen2.5-0.5B-Instruct on cuda:0 (torch.float16); batch_size=16, input_tokens=500
+2026-10-11 15:37:13,203 INFO HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-0.5B-Instruct/tree/7ae557604adf67be50417f59c2c2f167def9a775/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-10-11 15:37:13,240 INFO HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-0.5B-Instruct/tree/7ae557604adf67be50417f59c2c2f167def9a775?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-10-11 15:37:13,822 INFO HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-0.5B-Instruct "HTTP/1.1 200 OK"
+
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]
+Loading weights:  26%|██▌       | 75/290 [00:00<00:00, 746.38it/s]
+Loading weights:  55%|█████▍    | 159/290 [00:00<00:00, 790.04it/s]
+Loading weights:  84%|████████▍ | 243/290 [00:00<00:00, 802.85it/s]
+Loading weights: 100%|██████████| 290/290 [00:00<00:00, 834.25it/s]
+2026-10-11 15:37:15,115 INFO Workload loaded; recording metadata
+2026-10-11 15:37:15,430 INFO cached_decode: warming up (5 runs)
+2026-10-11 15:37:34,424 INFO cached_decode: running initial capture
+2026-10-11 15:37:37,481 INFO cached_decode: running diagnostic capture
+==PROF== Profiling "void gemv2T_kernel_val<int, int, float, float, float, float, (int)128, (int)16, (int)2, (int)2, (bool)0, (bool)0, cublasGemvParamsEx<int, cublasGemvTensorStridedBatched<const float>, cublasGemvTensorStridedBatched<const float>, cublasGemvTensorStridedBatched<float>, float>>(T13, T6, T6)": Application replay pass 2
+2026-10-11 15:37:38,791 INFO Capture complete; running reference forward and validating
+2026-10-11 15:37:39,898 INFO Profile complete; artifacts written to /capture/project/runs/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b16_workloads/20261011T153713Z_profile_forward_phases_45a769e7
+run_dir: /capture/project/runs/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b16_workloads/20261011T153713Z_profile_forward_phases_45a769e7
+==PROF== Disconnected from process 6269
+==PROF== Connected to process 6310 (/capture/python/cpython-3.14.7-linux-x86_64-gnu/bin/python3.14)
+2026-10-11 15:37:46,626 INFO Starting profile; phase=cached_decode, run_dir: /capture/project/runs/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b16_workloads/20261011T153746Z_profile_forward_phases_40a42cdc
+2026-10-11 15:37:46,627 INFO Loading Qwen/Qwen2.5-0.5B-Instruct on cuda:0 (torch.float16); batch_size=16, input_tokens=500
+2026-10-11 15:37:46,672 INFO HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-0.5B-Instruct/tree/7ae557604adf67be50417f59c2c2f167def9a775/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-10-11 15:37:46,692 INFO HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-0.5B-Instruct/tree/7ae557604adf67be50417f59c2c2f167def9a775?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-10-11 15:37:47,288 INFO HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-0.5B-Instruct "HTTP/1.1 200 OK"
+
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]
+Loading weights:  30%|███       | 88/290 [00:00<00:00, 804.79it/s]
+Loading weights:  59%|█████▉    | 171/290 [00:00<00:00, 802.34it/s]
+Loading weights:  88%|████████▊ | 255/290 [00:00<00:00, 818.13it/s]
+Loading weights: 100%|██████████| 290/290 [00:00<00:00, 851.67it/s]
+2026-10-11 15:37:48,628 INFO Workload loaded; recording metadata
+2026-10-11 15:37:48,951 INFO cached_decode: warming up (5 runs)
+2026-10-11 15:38:08,032 INFO cached_decode: running initial capture
+2026-10-11 15:38:11,091 INFO cached_decode: running diagnostic capture
+==PROF== Profiling "void gemv2T_kernel_val<int, int, float, float, float, float, (int)128, (int)16, (int)2, (int)2, (bool)0, (bool)0, cublasGemvParamsEx<int, cublasGemvTensorStridedBatched<const float>, cublasGemvTensorStridedBatched<const float>, cublasGemvTensorStridedBatched<float>, float>>(T13, T6, T6)": Application replay pass 3
+2026-10-11 15:38:12,409 INFO Capture complete; running reference forward and validating
+2026-10-11 15:38:13,512 INFO Profile complete; artifacts written to /capture/project/runs/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b16_workloads/20261011T153746Z_profile_forward_phases_40a42cdc
+run_dir: /capture/project/runs/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b16_workloads/20261011T153746Z_profile_forward_phases_40a42cdc
+==PROF== Disconnected from process 6310
+==PROF== Connected to process 6355 (/capture/python/cpython-3.14.7-linux-x86_64-gnu/bin/python3.14)
+2026-10-11 15:38:19,932 INFO Starting profile; phase=cached_decode, run_dir: /capture/project/runs/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b16_workloads/20261011T153819Z_profile_forward_phases_f4e1c293
+2026-10-11 15:38:19,932 INFO Loading Qwen/Qwen2.5-0.5B-Instruct on cuda:0 (torch.float16); batch_size=16, input_tokens=500
+2026-10-11 15:38:19,980 INFO HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-0.5B-Instruct/tree/7ae557604adf67be50417f59c2c2f167def9a775/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-10-11 15:38:20,002 INFO HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-0.5B-Instruct/tree/7ae557604adf67be50417f59c2c2f167def9a775?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-10-11 15:38:20,577 INFO HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-0.5B-Instruct "HTTP/1.1 200 OK"
+
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]
+Loading weights:  30%|███       | 88/290 [00:00<00:00, 816.05it/s]
+Loading weights:  63%|██████▎   | 183/290 [00:00<00:00, 859.19it/s]
+Loading weights:  93%|█████████▎| 269/290 [00:00<00:00, 854.67it/s]
+Loading weights: 100%|██████████| 290/290 [00:00<00:00, 886.74it/s]
+2026-10-11 15:38:21,890 INFO Workload loaded; recording metadata
+2026-10-11 15:38:22,209 INFO cached_decode: warming up (5 runs)
+2026-10-11 15:38:41,197 INFO cached_decode: running initial capture
+2026-10-11 15:38:44,253 INFO cached_decode: running diagnostic capture
+==PROF== Profiling "void gemv2T_kernel_val<int, int, float, float, float, float, (int)128, (int)16, (int)2, (int)2, (bool)0, (bool)0, cublasGemvParamsEx<int, cublasGemvTensorStridedBatched<const float>, cublasGemvTensorStridedBatched<const float>, cublasGemvTensorStridedBatched<float>, float>>(T13, T6, T6)": Application replay pass 4
+2026-10-11 15:38:45,563 INFO Capture complete; running reference forward and validating
+2026-10-11 15:38:46,667 INFO Profile complete; artifacts written to /capture/project/runs/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b16_workloads/20261011T153819Z_profile_forward_phases_f4e1c293
+run_dir: /capture/project/runs/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b16_workloads/20261011T153819Z_profile_forward_phases_f4e1c293
+==PROF== Disconnected from process 6355
+==PROF== Connected to process 6399 (/capture/python/cpython-3.14.7-linux-x86_64-gnu/bin/python3.14)
+2026-10-11 15:38:53,179 INFO Starting profile; phase=cached_decode, run_dir: /capture/project/runs/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b16_workloads/20261011T153853Z_profile_forward_phases_dd77ee3a
+2026-10-11 15:38:53,179 INFO Loading Qwen/Qwen2.5-0.5B-Instruct on cuda:0 (torch.float16); batch_size=16, input_tokens=500
+2026-10-11 15:38:53,226 INFO HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-0.5B-Instruct/tree/7ae557604adf67be50417f59c2c2f167def9a775/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-10-11 15:38:53,262 INFO HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-0.5B-Instruct/tree/7ae557604adf67be50417f59c2c2f167def9a775?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-10-11 15:38:53,841 INFO HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-0.5B-Instruct "HTTP/1.1 200 OK"
+
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]
+Loading weights:   0%|          | 1/290 [00:00<01:21,  3.53it/s]
+Loading weights:  76%|███████▌  | 220/290 [00:00<00:00, 731.46it/s]
+Loading weights: 100%|██████████| 290/290 [00:00<00:00, 637.41it/s]
+2026-10-11 15:38:55,184 INFO Workload loaded; recording metadata
+2026-10-11 15:38:55,486 INFO cached_decode: warming up (5 runs)
+2026-10-11 15:39:14,571 INFO cached_decode: running initial capture
+2026-10-11 15:39:17,643 INFO cached_decode: running diagnostic capture
+==PROF== Profiling "void gemv2T_kernel_val<int, int, float, float, float, float, (int)128, (int)16, (int)2, (int)2, (bool)0, (bool)0, cublasGemvParamsEx<int, cublasGemvTensorStridedBatched<const float>, cublasGemvTensorStridedBatched<const float>, cublasGemvTensorStridedBatched<float>, float>>(T13, T6, T6)": Application replay pass 5
+2026-10-11 15:39:18,963 INFO Capture complete; running reference forward and validating
+2026-10-11 15:39:20,083 INFO Profile complete; artifacts written to /capture/project/runs/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b16_workloads/20261011T153853Z_profile_forward_phases_dd77ee3a
+run_dir: /capture/project/runs/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b16_workloads/20261011T153853Z_profile_forward_phases_dd77ee3a
+==PROF== Disconnected from process 6399
+==PROF== Connected to process 6441 (/capture/python/cpython-3.14.7-linux-x86_64-gnu/bin/python3.14)
+2026-10-11 15:39:26,582 INFO Starting profile; phase=cached_decode, run_dir: /capture/project/runs/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b16_workloads/20261011T153926Z_profile_forward_phases_bc084076
+2026-10-11 15:39:26,582 INFO Loading Qwen/Qwen2.5-0.5B-Instruct on cuda:0 (torch.float16); batch_size=16, input_tokens=500
+2026-10-11 15:39:26,632 INFO HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-0.5B-Instruct/tree/7ae557604adf67be50417f59c2c2f167def9a775/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-10-11 15:39:26,652 INFO HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-0.5B-Instruct/tree/7ae557604adf67be50417f59c2c2f167def9a775?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-10-11 15:39:27,235 INFO HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-0.5B-Instruct "HTTP/1.1 200 OK"
+
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]
+Loading weights:  26%|██▌       | 76/290 [00:00<00:00, 758.72it/s]
+Loading weights:  55%|█████▌    | 160/290 [00:00<00:00, 788.98it/s]
+Loading weights:  88%|████████▊ | 255/290 [00:00<00:00, 830.91it/s]
+Loading weights: 100%|██████████| 290/290 [00:00<00:00, 846.47it/s]
+2026-10-11 15:39:28,589 INFO Workload loaded; recording metadata
+2026-10-11 15:39:28,915 INFO cached_decode: warming up (5 runs)
+2026-10-11 15:39:47,988 INFO cached_decode: running initial capture
+2026-10-11 15:39:51,057 INFO cached_decode: running diagnostic capture
+==PROF== Profiling "void gemv2T_kernel_val<int, int, float, float, float, float, (int)128, (int)16, (int)2, (int)2, (bool)0, (bool)0, cublasGemvParamsEx<int, cublasGemvTensorStridedBatched<const float>, cublasGemvTensorStridedBatched<const float>, cublasGemvTensorStridedBatched<float>, float>>(T13, T6, T6)": Application replay pass 6
+2026-10-11 15:39:52,380 INFO Capture complete; running reference forward and validating
+2026-10-11 15:39:53,487 INFO Profile complete; artifacts written to /capture/project/runs/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b16_workloads/20261011T153926Z_profile_forward_phases_bc084076
+run_dir: /capture/project/runs/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b16_workloads/20261011T153926Z_profile_forward_phases_bc084076
+==PROF== Disconnected from process 6441
+==PROF== Connected to process 6485 (/capture/python/cpython-3.14.7-linux-x86_64-gnu/bin/python3.14)
+2026-10-11 15:39:59,894 INFO Starting profile; phase=cached_decode, run_dir: /capture/project/runs/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b16_workloads/20261011T153959Z_profile_forward_phases_b95dd243
+2026-10-11 15:39:59,895 INFO Loading Qwen/Qwen2.5-0.5B-Instruct on cuda:0 (torch.float16); batch_size=16, input_tokens=500
+2026-10-11 15:39:59,945 INFO HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-0.5B-Instruct/tree/7ae557604adf67be50417f59c2c2f167def9a775/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-10-11 15:39:59,968 INFO HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-0.5B-Instruct/tree/7ae557604adf67be50417f59c2c2f167def9a775?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-10-11 15:40:00,565 INFO HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-0.5B-Instruct "HTTP/1.1 200 OK"
+
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]
+Loading weights:  31%|███       | 89/290 [00:00<00:00, 787.71it/s]
+Loading weights:  63%|██████▎   | 184/290 [00:00<00:00, 867.26it/s]
+Loading weights:  96%|█████████▌| 279/290 [00:00<00:00, 867.71it/s]
+Loading weights: 100%|██████████| 290/290 [00:00<00:00, 887.39it/s]
+2026-10-11 15:40:01,899 INFO Workload loaded; recording metadata
+2026-10-11 15:40:02,215 INFO cached_decode: warming up (5 runs)
+2026-10-11 15:40:21,321 INFO cached_decode: running initial capture
+2026-10-11 15:40:24,378 INFO cached_decode: running diagnostic capture
+==PROF== Profiling "void gemv2T_kernel_val<int, int, float, float, float, float, (int)128, (int)16, (int)2, (int)2, (bool)0, (bool)0, cublasGemvParamsEx<int, cublasGemvTensorStridedBatched<const float>, cublasGemvTensorStridedBatched<const float>, cublasGemvTensorStridedBatched<float>, float>>(T13, T6, T6)": Application replay pass 7
+2026-10-11 15:40:25,597 INFO Capture complete; running reference forward and validating
+2026-10-11 15:40:26,697 INFO Profile complete; artifacts written to /capture/project/runs/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b16_workloads/20261011T153959Z_profile_forward_phases_b95dd243
+run_dir: /capture/project/runs/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b16_workloads/20261011T153959Z_profile_forward_phases_b95dd243
+==PROF== Disconnected from process 6485
+==PROF== Connected to process 6526 (/capture/python/cpython-3.14.7-linux-x86_64-gnu/bin/python3.14)
+2026-10-11 15:40:33,258 INFO Starting profile; phase=cached_decode, run_dir: /capture/project/runs/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b16_workloads/20261011T154033Z_profile_forward_phases_717c207f
+2026-10-11 15:40:33,258 INFO Loading Qwen/Qwen2.5-0.5B-Instruct on cuda:0 (torch.float16); batch_size=16, input_tokens=500
+2026-10-11 15:40:33,308 INFO HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-0.5B-Instruct/tree/7ae557604adf67be50417f59c2c2f167def9a775/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-10-11 15:40:33,328 INFO HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-0.5B-Instruct/tree/7ae557604adf67be50417f59c2c2f167def9a775?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-10-11 15:40:33,917 INFO HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-0.5B-Instruct "HTTP/1.1 200 OK"
+
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]
+Loading weights:  30%|███       | 88/290 [00:00<00:00, 841.41it/s]
+Loading weights:  60%|█████▉    | 173/290 [00:00<00:00, 821.65it/s]
+Loading weights:  88%|████████▊ | 256/290 [00:00<00:00, 809.72it/s]
+Loading weights: 100%|██████████| 290/290 [00:00<00:00, 863.93it/s]
+2026-10-11 15:40:35,253 INFO Workload loaded; recording metadata
+2026-10-11 15:40:35,575 INFO cached_decode: warming up (5 runs)
+2026-10-11 15:40:54,659 INFO cached_decode: running initial capture
+2026-10-11 15:40:57,716 INFO cached_decode: running diagnostic capture
+==PROF== Profiling "void gemv2T_kernel_val<int, int, float, float, float, float, (int)128, (int)16, (int)2, (int)2, (bool)0, (bool)0, cublasGemvParamsEx<int, cublasGemvTensorStridedBatched<const float>, cublasGemvTensorStridedBatched<const float>, cublasGemvTensorStridedBatched<float>, float>>(T13, T6, T6)": Application replay pass 8
+2026-10-11 15:40:58,932 INFO Capture complete; running reference forward and validating
+2026-10-11 15:41:00,039 INFO Profile complete; artifacts written to /capture/project/runs/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b16_workloads/20261011T154033Z_profile_forward_phases_717c207f
+run_dir: /capture/project/runs/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b16_workloads/20261011T154033Z_profile_forward_phases_717c207f
+==PROF== Disconnected from process 6526
+==PROF== Creating report from application replay data: 0%..........100%
+==PROF== Report: /capture/project/runs/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b16.ncu-rep

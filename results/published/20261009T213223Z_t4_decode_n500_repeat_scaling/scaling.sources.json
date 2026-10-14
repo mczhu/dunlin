@@ -1,0 +1,14 @@
+{
+  "analysis_path": "results/published/20261009T213223Z_t4_decode_n500_repeat_scaling/summary.json",
+  "analysis_sha256": "e14bf2d857e499fe44769cad6c2ea3845638a40fd2b605f3f4e7885f80c02665",
+  "matplotlib_version": "3.11.1",
+  "plot_script_sha256": "fd8fb3a66dc7d6bba7e2e646709b08fe6fe9b37262aeb99bf950da852200e1af",
+  "publication_eligible": true,
+  "scope": "Median synchronized decode latency and aggregate throughput; latency whiskers are sample p10\u2013p90, not confidence intervals",
+  "source_mode": "strict",
+  "source_run_ids": [
+    "20261009T213223Z_t4_decode_n500_repeat_b32",
+    "20261009T213223Z_t4_decode_n500_repeat_b16"
+  ],
+  "spread": "inclusive sample p10/p90; not confidence intervals"
+}

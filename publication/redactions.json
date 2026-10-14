@@ -1,0 +1,1619 @@
+{
+  "schema_version": 1,
+  "transformations": [
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261003T150232Z_batch_context_matrix_9d7ad269/config.resolved.json",
+      "exported_sha256": "13ef9e22f7be7ae6abe8c507b4673bb0af8d8854a68420cc8609d72b41f39227",
+      "original_sha256": "691eb1b87ca44e1010d0a8266e7d8fa884484d34f8e07ebdf27a3884b7b2ec97"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261003T150232Z_batch_context_matrix_9d7ad269/environment.json",
+      "exported_sha256": "83ce07363ef46f8e462c0a848bec2a6bce997b448205849f90153314797d2ff2",
+      "original_sha256": "db95178d28ad261169535e2ae95bddfcd94452ffec7264ad7dc2269f74ca3046"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261003T150232Z_batch_context_matrix_9d7ad269/n128_b1/config.resolved.json",
+      "exported_sha256": "0768de8aa48166c8c805fc19473a61506d376b37db7da7893ad6232c37b7e7ad",
+      "original_sha256": "b1499fcb55dc98295d5e1a5f4f53a30da526fa77bfdc0e0bd00ba5aa0e0c19e7"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261003T150232Z_batch_context_matrix_9d7ad269/n128_b1/environment.json",
+      "exported_sha256": "83ce07363ef46f8e462c0a848bec2a6bce997b448205849f90153314797d2ff2",
+      "original_sha256": "db95178d28ad261169535e2ae95bddfcd94452ffec7264ad7dc2269f74ca3046"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261003T150232Z_batch_context_matrix_9d7ad269/n128_b2/config.resolved.json",
+      "exported_sha256": "b7551fce8dd22b573b8ea4497472169c37c0fb5e57302a3110e3e8c4eb70fc6a",
+      "original_sha256": "ad934dc49fd409754b800f6e1187fcbf448ff0d2a3e9160b3ef30a85c539e346"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261003T150232Z_batch_context_matrix_9d7ad269/n128_b2/environment.json",
+      "exported_sha256": "83ce07363ef46f8e462c0a848bec2a6bce997b448205849f90153314797d2ff2",
+      "original_sha256": "db95178d28ad261169535e2ae95bddfcd94452ffec7264ad7dc2269f74ca3046"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261003T150232Z_batch_context_matrix_9d7ad269/n128_b4/config.resolved.json",
+      "exported_sha256": "fc4d7090866cabfb2c09965f643134f510181ca49c1fef4dd71cc7970060bb7a",
+      "original_sha256": "42674608617ed933383c79e03b1aa0f2c09531e8d266aefb5545d59a630fc4ad"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261003T150232Z_batch_context_matrix_9d7ad269/n128_b4/environment.json",
+      "exported_sha256": "83ce07363ef46f8e462c0a848bec2a6bce997b448205849f90153314797d2ff2",
+      "original_sha256": "db95178d28ad261169535e2ae95bddfcd94452ffec7264ad7dc2269f74ca3046"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261003T150232Z_batch_context_matrix_9d7ad269/n128_b8/config.resolved.json",
+      "exported_sha256": "e2971e39233abda6fe1febf0ecf0239304b721d5af4a07e3e6589b9bd686cfba",
+      "original_sha256": "3d4319cd7d0e56b28ef23e9dc003e280b2200a9f2d633cb8789ed0fe6d9d237e"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261003T150232Z_batch_context_matrix_9d7ad269/n128_b8/environment.json",
+      "exported_sha256": "83ce07363ef46f8e462c0a848bec2a6bce997b448205849f90153314797d2ff2",
+      "original_sha256": "db95178d28ad261169535e2ae95bddfcd94452ffec7264ad7dc2269f74ca3046"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261003T150232Z_batch_context_matrix_9d7ad269/n250_b1/config.resolved.json",
+      "exported_sha256": "907f5c0916b3a632d45436eee45fbe5f7aefebf30de970ac7367969e85983811",
+      "original_sha256": "776d5ad84e10281e5ec15e70b5c8d42498d7c3b261eb0c3558e648c9b1e92db1"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261003T150232Z_batch_context_matrix_9d7ad269/n250_b1/environment.json",
+      "exported_sha256": "83ce07363ef46f8e462c0a848bec2a6bce997b448205849f90153314797d2ff2",
+      "original_sha256": "db95178d28ad261169535e2ae95bddfcd94452ffec7264ad7dc2269f74ca3046"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261003T150232Z_batch_context_matrix_9d7ad269/n250_b2/config.resolved.json",
+      "exported_sha256": "c9a27d243439665e31792fd2f454684884281765c0421e51801dad002ecb7e9f",
+      "original_sha256": "d07cc7bae2975f25f5db4893316fa19bfd0b11843cfeb8a83d3982c22e5f0ac5"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261003T150232Z_batch_context_matrix_9d7ad269/n250_b2/environment.json",
+      "exported_sha256": "83ce07363ef46f8e462c0a848bec2a6bce997b448205849f90153314797d2ff2",
+      "original_sha256": "db95178d28ad261169535e2ae95bddfcd94452ffec7264ad7dc2269f74ca3046"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261003T150232Z_batch_context_matrix_9d7ad269/n250_b4/config.resolved.json",
+      "exported_sha256": "9c90bdee8a4faa37831ccb47b5017e441be19ac138a30586aa37f07c6ce2b500",
+      "original_sha256": "e19d0f39dff581a56ce318963b9c52d875fb01bc209674e528c5d048732a0654"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261003T150232Z_batch_context_matrix_9d7ad269/n250_b4/environment.json",
+      "exported_sha256": "83ce07363ef46f8e462c0a848bec2a6bce997b448205849f90153314797d2ff2",
+      "original_sha256": "db95178d28ad261169535e2ae95bddfcd94452ffec7264ad7dc2269f74ca3046"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261003T150232Z_batch_context_matrix_9d7ad269/n250_b8/config.resolved.json",
+      "exported_sha256": "6f315ac364a9e1b8b0b8f40a9819ba98dade2db5bc4c21893b8397a6bd72835f",
+      "original_sha256": "f9e8aa051068393af8d085dda0ee35ec213062b62152dd99441b0925b2447d9f"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261003T150232Z_batch_context_matrix_9d7ad269/n250_b8/environment.json",
+      "exported_sha256": "83ce07363ef46f8e462c0a848bec2a6bce997b448205849f90153314797d2ff2",
+      "original_sha256": "db95178d28ad261169535e2ae95bddfcd94452ffec7264ad7dc2269f74ca3046"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261003T150232Z_batch_context_matrix_9d7ad269/n32_b1/config.resolved.json",
+      "exported_sha256": "d228fba7bcd26cecdaf60be1dd6119c4438d9d79c968b9f1fe2611a97d6c69a0",
+      "original_sha256": "65f1b308dabc42bab73cafc05849ef98af7ecd83058a67747b33076c31717973"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261003T150232Z_batch_context_matrix_9d7ad269/n32_b1/environment.json",
+      "exported_sha256": "83ce07363ef46f8e462c0a848bec2a6bce997b448205849f90153314797d2ff2",
+      "original_sha256": "db95178d28ad261169535e2ae95bddfcd94452ffec7264ad7dc2269f74ca3046"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261003T150232Z_batch_context_matrix_9d7ad269/n32_b2/config.resolved.json",
+      "exported_sha256": "1cda21dbae588479788a5348c2951ebc1cea4aeffe77444aba3158bc7590b6dd",
+      "original_sha256": "051dbedf1caecc90f4d6577da1a1fafae39fbfe6d55d82fb5a16e96dc6fd25f7"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261003T150232Z_batch_context_matrix_9d7ad269/n32_b2/environment.json",
+      "exported_sha256": "83ce07363ef46f8e462c0a848bec2a6bce997b448205849f90153314797d2ff2",
+      "original_sha256": "db95178d28ad261169535e2ae95bddfcd94452ffec7264ad7dc2269f74ca3046"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261003T150232Z_batch_context_matrix_9d7ad269/n32_b4/config.resolved.json",
+      "exported_sha256": "f15018dcd3e4c0c28d4e471ea604466925371769b608c3a9512f5880ebe1ade8",
+      "original_sha256": "c04f30c9a9d007448c69e3e65551bee12596f794030c8c166c6625d3114c45c2"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261003T150232Z_batch_context_matrix_9d7ad269/n32_b4/environment.json",
+      "exported_sha256": "83ce07363ef46f8e462c0a848bec2a6bce997b448205849f90153314797d2ff2",
+      "original_sha256": "db95178d28ad261169535e2ae95bddfcd94452ffec7264ad7dc2269f74ca3046"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261003T150232Z_batch_context_matrix_9d7ad269/n32_b8/config.resolved.json",
+      "exported_sha256": "1801c9f3e0b9797a270dca0a73721fc5478ec758113d27be047a743955248b8d",
+      "original_sha256": "e75e0806cdf0a68d90a53becf2302866114c9a8040fe1a17321a415c254a61db"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261003T150232Z_batch_context_matrix_9d7ad269/n32_b8/environment.json",
+      "exported_sha256": "83ce07363ef46f8e462c0a848bec2a6bce997b448205849f90153314797d2ff2",
+      "original_sha256": "db95178d28ad261169535e2ae95bddfcd94452ffec7264ad7dc2269f74ca3046"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261003T150232Z_batch_context_matrix_9d7ad269/n500_b1/config.resolved.json",
+      "exported_sha256": "cf576ddb4930281e7c0a577afaedf4b0a28ed82ae6a265e0bb8aa654bf258b30",
+      "original_sha256": "24fb18b0dd2e3e98cfc809a66493faedaffbfde031194aa86f15c92f48276a07"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261003T150232Z_batch_context_matrix_9d7ad269/n500_b1/environment.json",
+      "exported_sha256": "83ce07363ef46f8e462c0a848bec2a6bce997b448205849f90153314797d2ff2",
+      "original_sha256": "db95178d28ad261169535e2ae95bddfcd94452ffec7264ad7dc2269f74ca3046"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261003T150232Z_batch_context_matrix_9d7ad269/n500_b2/config.resolved.json",
+      "exported_sha256": "d3c9a8438ae1bb4aed2a566eeca39a10f614703e5203afc534ba9beded875e39",
+      "original_sha256": "9dfa8fc0a64a4b16db082e0604c86a7496132e250c94060f61a1c75c3c54ff53"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261003T150232Z_batch_context_matrix_9d7ad269/n500_b2/environment.json",
+      "exported_sha256": "83ce07363ef46f8e462c0a848bec2a6bce997b448205849f90153314797d2ff2",
+      "original_sha256": "db95178d28ad261169535e2ae95bddfcd94452ffec7264ad7dc2269f74ca3046"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261003T150232Z_batch_context_matrix_9d7ad269/n500_b4/config.resolved.json",
+      "exported_sha256": "57354e376295b7ec1b51a7544ef9e27baea800c4312e4457ccc9f667d715cf99",
+      "original_sha256": "25366a50bc9ea961e4f8e0d04d58dc80c0bd20268415b037333569edf6d49739"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261003T150232Z_batch_context_matrix_9d7ad269/n500_b4/environment.json",
+      "exported_sha256": "83ce07363ef46f8e462c0a848bec2a6bce997b448205849f90153314797d2ff2",
+      "original_sha256": "db95178d28ad261169535e2ae95bddfcd94452ffec7264ad7dc2269f74ca3046"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261003T150232Z_batch_context_matrix_9d7ad269/n500_b8/config.resolved.json",
+      "exported_sha256": "6eb966485e6d4a9411bd2eab32a998491a75d1a85a9c3925f10516ae59e5eb6c",
+      "original_sha256": "f4025e934522ad7b826307b0b49772c1cef3ee357967bdd35905c1f4b8231591"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261003T150232Z_batch_context_matrix_9d7ad269/n500_b8/environment.json",
+      "exported_sha256": "83ce07363ef46f8e462c0a848bec2a6bce997b448205849f90153314797d2ff2",
+      "original_sha256": "db95178d28ad261169535e2ae95bddfcd94452ffec7264ad7dc2269f74ca3046"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261003T150232Z_batch_context_matrix_9d7ad269/n64_b1/config.resolved.json",
+      "exported_sha256": "6984d3e807b841258287982c356137f4fda6b852992445e8811806f8beacd381",
+      "original_sha256": "dd2f1159a428e61566f54805bb5411ee8efa6ec0eed2ee89a4710658e5c34c38"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261003T150232Z_batch_context_matrix_9d7ad269/n64_b1/environment.json",
+      "exported_sha256": "83ce07363ef46f8e462c0a848bec2a6bce997b448205849f90153314797d2ff2",
+      "original_sha256": "db95178d28ad261169535e2ae95bddfcd94452ffec7264ad7dc2269f74ca3046"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261003T150232Z_batch_context_matrix_9d7ad269/n64_b2/config.resolved.json",
+      "exported_sha256": "cb5ddbdcc865012dae4a22860c859b667687545cb32fdd344ab12acad78387e4",
+      "original_sha256": "6b7ea1e54084e99882c5c3fb80e4d251bf7631b0034d20f0d4dad18802fd8c9f"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261003T150232Z_batch_context_matrix_9d7ad269/n64_b2/environment.json",
+      "exported_sha256": "83ce07363ef46f8e462c0a848bec2a6bce997b448205849f90153314797d2ff2",
+      "original_sha256": "db95178d28ad261169535e2ae95bddfcd94452ffec7264ad7dc2269f74ca3046"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261003T150232Z_batch_context_matrix_9d7ad269/n64_b4/config.resolved.json",
+      "exported_sha256": "f7c7d859058b25e3a5a96221cf61da2c286d4dadd92efe8bd18b26a7b6c218b2",
+      "original_sha256": "d4e54486e2dee901f0986b714fd86d95e2c51a30ea0ff5f6d96cc77f9decf2cf"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261003T150232Z_batch_context_matrix_9d7ad269/n64_b4/environment.json",
+      "exported_sha256": "83ce07363ef46f8e462c0a848bec2a6bce997b448205849f90153314797d2ff2",
+      "original_sha256": "db95178d28ad261169535e2ae95bddfcd94452ffec7264ad7dc2269f74ca3046"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261003T150232Z_batch_context_matrix_9d7ad269/n64_b8/config.resolved.json",
+      "exported_sha256": "546df081a4be214595565b88fdde32c07d37bbe610cceb6b2fb3ebea166d616d",
+      "original_sha256": "1e360484c82c796468d75506c9eeda881d82f110fd80a0ac43cdcf3cb32f6e46"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261003T150232Z_batch_context_matrix_9d7ad269/n64_b8/environment.json",
+      "exported_sha256": "83ce07363ef46f8e462c0a848bec2a6bce997b448205849f90153314797d2ff2",
+      "original_sha256": "db95178d28ad261169535e2ae95bddfcd94452ffec7264ad7dc2269f74ca3046"
+    },
+    {
+      "description": "Rebuilt analysis or figure provenance from published inputs; measured values unchanged.",
+      "destination": "results/published/20261003T150232Z_batch_context_matrix_9d7ad269/plot.png",
+      "exported_sha256": "be685941dec83507b7789ec7c62bc04b0a56844f44fd134177cef17dc346efb5",
+      "original_sha256": "be685941dec83507b7789ec7c62bc04b0a56844f44fd134177cef17dc346efb5"
+    },
+    {
+      "description": "Rebuilt analysis or figure provenance from published inputs; measured values unchanged.",
+      "destination": "results/published/20261003T150232Z_batch_context_matrix_9d7ad269/plot.sources.json",
+      "exported_sha256": "0d136f5c32514ab633bb7f6d81760ac8468be7581fc1a929ca2170f66b460ec8",
+      "original_sha256": "87491f4dc618eedebd07829a551159ac73693ccf122d385b59ea853179cbec78"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261009T200203Z_t4_decode_n500_b16/config.resolved.json",
+      "exported_sha256": "02302ed742e23db3d1c064b74c581465acbae5944fa1bf81caa0459b5562d44e",
+      "original_sha256": "0d5d9156d6a4fc77228ca2cd845df7436f795cbe7fc6f82967c7b2e1007c5a64"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261009T200203Z_t4_decode_n500_b16/environment.json",
+      "exported_sha256": "a1d13c716f8511d849f4352443f85877f5b2449b2af29f478be685bab8aab74b",
+      "original_sha256": "d7f6b5a9f2dd39962bb8818d8d2fb83d55731729db3ebb62f4c6ada7b2d5f837"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261009T200203Z_t4_decode_n500_b8/config.resolved.json",
+      "exported_sha256": "fe3dd0f02b19ba5c882b0cebf0fbc7ba0c34ca7caa909ffdf9472973d38079c8",
+      "original_sha256": "9899f024df0c3f3e90dccda606b9614de309396657011183efaedb2ee22ef339"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261009T200203Z_t4_decode_n500_b8/environment.json",
+      "exported_sha256": "a1d13c716f8511d849f4352443f85877f5b2449b2af29f478be685bab8aab74b",
+      "original_sha256": "d7f6b5a9f2dd39962bb8818d8d2fb83d55731729db3ebb62f4c6ada7b2d5f837"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261009T200203Z_t4_decode_n500_b8_check/config.resolved.json",
+      "exported_sha256": "869b9431844748ae44f5dc049fcbb2638fd73b0c0ae3c89eae4fe3c354e025ea",
+      "original_sha256": "08b6411944911c15d4278072cbe562cc216a2cf714a82c7b2cccc6c966d31fb2"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261009T200203Z_t4_decode_n500_b8_check/environment.json",
+      "exported_sha256": "a1d13c716f8511d849f4352443f85877f5b2449b2af29f478be685bab8aab74b",
+      "original_sha256": "d7f6b5a9f2dd39962bb8818d8d2fb83d55731729db3ebb62f4c6ada7b2d5f837"
+    },
+    {
+      "description": "Rebuilt analysis or figure provenance from published inputs; measured values unchanged.",
+      "destination": "results/published/20261009T200203Z_t4_decode_n500_scaling_b16/scaling.png",
+      "exported_sha256": "ef48e5283101815dc085f831ab65fea60561af3c9d05d52764818da147b52f48",
+      "original_sha256": "afc55358b77c0da0c48776a234bf13c92d781842e28073b93c7a8b4a5d689d19"
+    },
+    {
+      "description": "Rebuilt analysis or figure provenance from published inputs; measured values unchanged.",
+      "destination": "results/published/20261009T200203Z_t4_decode_n500_scaling_b16/scaling.sources.json",
+      "exported_sha256": "57d68419711975a54a1da8ce4b98e938a360c83334f32e67c43328aeb2d3beba",
+      "original_sha256": "32947dca01cb242ae788b6910c03bc1d4e9270bff5cc8d64a9117498b973544e"
+    },
+    {
+      "description": "Rebuilt analysis or figure provenance from published inputs; measured values unchanged.",
+      "destination": "results/published/20261009T200203Z_t4_decode_n500_scaling_b16/summary.json",
+      "exported_sha256": "7ad409d77ce6e36e6d2584699f7cd05cefafa77c1c1ad87b98f32e4e79f1a386",
+      "original_sha256": "e3ad6545bd6b31a37dc023586f5c6d68b4aae8d150edc4e30038610aa1a81493"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261009T213223Z_t4_decode_n500_repeat_b16/config.resolved.json",
+      "exported_sha256": "02302ed742e23db3d1c064b74c581465acbae5944fa1bf81caa0459b5562d44e",
+      "original_sha256": "0d5d9156d6a4fc77228ca2cd845df7436f795cbe7fc6f82967c7b2e1007c5a64"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261009T213223Z_t4_decode_n500_repeat_b16/environment.json",
+      "exported_sha256": "7075dc7a9a11eb6138944751ebc639a99f4f53a8a0c54d17840770685b142311",
+      "original_sha256": "fc7618b883646185614933ee4e095fa0f90dcd87805b739820206fb96e757494"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261009T213223Z_t4_decode_n500_repeat_b32/config.resolved.json",
+      "exported_sha256": "3008853ff66cc0eabd5f32df9b9382bb84ef8ad5b2c7da2a3ffc849cc22b4cbf",
+      "original_sha256": "317d89248d271404c3025ec01ebec596f951212924ffbe46fe3f59a6d47a0d56"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261009T213223Z_t4_decode_n500_repeat_b32/environment.json",
+      "exported_sha256": "7075dc7a9a11eb6138944751ebc639a99f4f53a8a0c54d17840770685b142311",
+      "original_sha256": "fc7618b883646185614933ee4e095fa0f90dcd87805b739820206fb96e757494"
+    },
+    {
+      "description": "Rebuilt analysis or figure provenance from published inputs; measured values unchanged.",
+      "destination": "results/published/20261009T213223Z_t4_decode_n500_repeat_scaling/scaling.png",
+      "exported_sha256": "05b18fc4406ba1642135cec05d3b90626aa0b64e3729eb2f3e02eb61387c0939",
+      "original_sha256": "948ba8443862bb4aeb4372b5796ea24ac97ff33d41ef97687099ee2e374dab01"
+    },
+    {
+      "description": "Rebuilt analysis or figure provenance from published inputs; measured values unchanged.",
+      "destination": "results/published/20261009T213223Z_t4_decode_n500_repeat_scaling/scaling.sources.json",
+      "exported_sha256": "f7cfa184e5c62f59733825a49fda2c76fa4fcbc4f3939bcbf7872ee7e1ca4d2b",
+      "original_sha256": "7fc3b2a28f2ca18e85a761aeadd49592e2a6ee362eee555664f7802bc380ca72"
+    },
+    {
+      "description": "Rebuilt analysis or figure provenance from published inputs; measured values unchanged.",
+      "destination": "results/published/20261009T213223Z_t4_decode_n500_repeat_scaling/summary.json",
+      "exported_sha256": "e14bf2d857e499fe44769cad6c2ea3845638a40fd2b605f3f4e7885f80c02665",
+      "original_sha256": "028f5bbc89088aee1556406603e52b9336d926edf4e3f3f15c989437243a0e72"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261009T215054Z_t4_decode_n500_b16/config.resolved.json",
+      "exported_sha256": "02302ed742e23db3d1c064b74c581465acbae5944fa1bf81caa0459b5562d44e",
+      "original_sha256": "0d5d9156d6a4fc77228ca2cd845df7436f795cbe7fc6f82967c7b2e1007c5a64"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261009T215054Z_t4_decode_n500_b16/environment.json",
+      "exported_sha256": "1445fef24b2187c82ff637835d7b513d81e889fe5011319b1a9b4801e903d5ce",
+      "original_sha256": "abc9224b7b244f62f0f01b5604bad6d73d0b8be080fe6887e1b05c1cf9c95175"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261009T215054Z_t4_decode_n500_b32/config.resolved.json",
+      "exported_sha256": "3008853ff66cc0eabd5f32df9b9382bb84ef8ad5b2c7da2a3ffc849cc22b4cbf",
+      "original_sha256": "317d89248d271404c3025ec01ebec596f951212924ffbe46fe3f59a6d47a0d56"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261009T215054Z_t4_decode_n500_b32/environment.json",
+      "exported_sha256": "1445fef24b2187c82ff637835d7b513d81e889fe5011319b1a9b4801e903d5ce",
+      "original_sha256": "abc9224b7b244f62f0f01b5604bad6d73d0b8be080fe6887e1b05c1cf9c95175"
+    },
+    {
+      "description": "Rebuilt analysis or figure provenance from published inputs; measured values unchanged.",
+      "destination": "results/published/20261009T215054Z_t4_decode_n500_scaling_b32/summary.json",
+      "exported_sha256": "a99aa1960b7c45356dc6c56a6a98683e392432fdbfdc7fc0815b8846c1b5171a",
+      "original_sha256": "8bc80586672eb8f047be072bbff96acb5433832120976171bbb2e41e992a2b9b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261010T131445Z_t4_decode_attribution_n500_profile_b16/config.resolved.json",
+      "exported_sha256": "dcadd7f5249dc4dd276111906f4a7d83dd9fc12e0b14556b9b09be30214345cc",
+      "original_sha256": "406cc1b892ffc3dfe8cbd224e824297521e42d6d4ddcb1d828e0f0cb66404ac5"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261010T131445Z_t4_decode_attribution_n500_profile_b16/environment.json",
+      "exported_sha256": "90ff576ad17558cd810fc9aa9ed9bc6ec5cc06fb19c0e89282d45ef8b527030e",
+      "original_sha256": "d838920e20f4b037399c9c2566a153284e24db16242f1318593673560086c4e3"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261010T131445Z_t4_decode_attribution_n500_profile_b16/trace.json",
+      "exported_sha256": "65d4a52022b5a36c8bfd5ce13963429dc0b78decf2c66ce2197818cb91ff6695",
+      "original_sha256": "5872870b070e736f9dc62522c84baf4a095f733f739dec2c49f75080fc3d450e"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261010T131445Z_t4_decode_attribution_n500_profile_b32/config.resolved.json",
+      "exported_sha256": "4cd975d9b3705a899c6b3935e8845f3899282ff66fa698256da1ff82101583b7",
+      "original_sha256": "c0d3b652a633f7c121d4f27a0aa2e13a89e8d665d3b25b7d0265b94854b1e9cd"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261010T131445Z_t4_decode_attribution_n500_profile_b32/environment.json",
+      "exported_sha256": "90ff576ad17558cd810fc9aa9ed9bc6ec5cc06fb19c0e89282d45ef8b527030e",
+      "original_sha256": "d838920e20f4b037399c9c2566a153284e24db16242f1318593673560086c4e3"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261010T131445Z_t4_decode_attribution_n500_profile_b32/trace.json",
+      "exported_sha256": "766335cc694798dc64c4aaebce7863d9babb7e611dafbc39bdd389cdd00db50b",
+      "original_sha256": "ad45abdb025ece6862013c3318c503a7a298c03c88149a9cbbe1324de1880e51"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/av_b16.log",
+      "exported_sha256": "2c509102811ce2bd590a607793ee866a6c250aaf038653edfe7c267dea0d052c",
+      "original_sha256": "86f604659faf3c6b9336c467878c2002eb7cd699d8bda7d968df8ab9193139a9"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/av_b16.selection.json",
+      "exported_sha256": "2fe3ea6819f92f43ffafec3ee5fbca866ada57b5a36dff9f8c6ea811dd2d2825",
+      "original_sha256": "487e16a8af657a73784a41dc1d62fd377ade3450364d6483e35698f8bd62c0b7"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/av_b16_workloads/20261011T163236Z_profile_forward_phases_896d01ce/config.resolved.json",
+      "exported_sha256": "6954c4e5f870b22f7e74cda1300d9b4862ab1fb9d4a5f5c3e54b4d14b0b6d7a4",
+      "original_sha256": "bfafa6b260b79d0930225bfd30eac5e3f06093392d0d157911d136dc3e171bc2"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/av_b16_workloads/20261011T163236Z_profile_forward_phases_896d01ce/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/av_b16_workloads/20261011T163310Z_profile_forward_phases_7c9158c8/config.resolved.json",
+      "exported_sha256": "6954c4e5f870b22f7e74cda1300d9b4862ab1fb9d4a5f5c3e54b4d14b0b6d7a4",
+      "original_sha256": "bfafa6b260b79d0930225bfd30eac5e3f06093392d0d157911d136dc3e171bc2"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/av_b16_workloads/20261011T163310Z_profile_forward_phases_7c9158c8/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/av_b16_workloads/20261011T163343Z_profile_forward_phases_89a5f7fe/config.resolved.json",
+      "exported_sha256": "6954c4e5f870b22f7e74cda1300d9b4862ab1fb9d4a5f5c3e54b4d14b0b6d7a4",
+      "original_sha256": "bfafa6b260b79d0930225bfd30eac5e3f06093392d0d157911d136dc3e171bc2"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/av_b16_workloads/20261011T163343Z_profile_forward_phases_89a5f7fe/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/av_b16_workloads/20261011T163416Z_profile_forward_phases_5f4fd6ca/config.resolved.json",
+      "exported_sha256": "6954c4e5f870b22f7e74cda1300d9b4862ab1fb9d4a5f5c3e54b4d14b0b6d7a4",
+      "original_sha256": "bfafa6b260b79d0930225bfd30eac5e3f06093392d0d157911d136dc3e171bc2"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/av_b16_workloads/20261011T163416Z_profile_forward_phases_5f4fd6ca/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/av_b16_workloads/20261011T163450Z_profile_forward_phases_fad452f8/config.resolved.json",
+      "exported_sha256": "6954c4e5f870b22f7e74cda1300d9b4862ab1fb9d4a5f5c3e54b4d14b0b6d7a4",
+      "original_sha256": "bfafa6b260b79d0930225bfd30eac5e3f06093392d0d157911d136dc3e171bc2"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/av_b16_workloads/20261011T163450Z_profile_forward_phases_fad452f8/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/av_b16_workloads/20261011T163523Z_profile_forward_phases_58a04dba/config.resolved.json",
+      "exported_sha256": "6954c4e5f870b22f7e74cda1300d9b4862ab1fb9d4a5f5c3e54b4d14b0b6d7a4",
+      "original_sha256": "bfafa6b260b79d0930225bfd30eac5e3f06093392d0d157911d136dc3e171bc2"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/av_b16_workloads/20261011T163523Z_profile_forward_phases_58a04dba/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/av_b16_workloads/20261011T163556Z_profile_forward_phases_a0e3e946/config.resolved.json",
+      "exported_sha256": "6954c4e5f870b22f7e74cda1300d9b4862ab1fb9d4a5f5c3e54b4d14b0b6d7a4",
+      "original_sha256": "bfafa6b260b79d0930225bfd30eac5e3f06093392d0d157911d136dc3e171bc2"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/av_b16_workloads/20261011T163556Z_profile_forward_phases_a0e3e946/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/av_b16_workloads/20261011T163629Z_profile_forward_phases_348513c8/config.resolved.json",
+      "exported_sha256": "6954c4e5f870b22f7e74cda1300d9b4862ab1fb9d4a5f5c3e54b4d14b0b6d7a4",
+      "original_sha256": "bfafa6b260b79d0930225bfd30eac5e3f06093392d0d157911d136dc3e171bc2"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/av_b16_workloads/20261011T163629Z_profile_forward_phases_348513c8/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/av_b32.log",
+      "exported_sha256": "8dae8e90f92ab2276ef7fde08f2b7721b1cdb6c711d85e77d8309b9834f19508",
+      "original_sha256": "f9491676dd3f8622e02482aa3fc9cf329dcade768ca3fbaaf4ae2de93ffb242e"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/av_b32.selection.json",
+      "exported_sha256": "319e9341f0d51d5393f768165af6933d78469c654869ce0e80883d8d49225739",
+      "original_sha256": "f8786160495c36f9300d4b4e9ee61ffe1b9ad262e72c37624ef9d273be9bde3a"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/av_b32_workloads/20261011T163703Z_profile_forward_phases_99231570/config.resolved.json",
+      "exported_sha256": "101e06ff6eade5e3ecc3744be0adf75b08e4f60406c0bec695d69695f7ade22d",
+      "original_sha256": "1d766d789c291c552f17bfb8f19d9bd4544a42607bbd4abae71a2093fb423867"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/av_b32_workloads/20261011T163703Z_profile_forward_phases_99231570/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/av_b32_workloads/20261011T163741Z_profile_forward_phases_62409383/config.resolved.json",
+      "exported_sha256": "101e06ff6eade5e3ecc3744be0adf75b08e4f60406c0bec695d69695f7ade22d",
+      "original_sha256": "1d766d789c291c552f17bfb8f19d9bd4544a42607bbd4abae71a2093fb423867"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/av_b32_workloads/20261011T163741Z_profile_forward_phases_62409383/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/av_b32_workloads/20261011T163819Z_profile_forward_phases_12d8e8dc/config.resolved.json",
+      "exported_sha256": "101e06ff6eade5e3ecc3744be0adf75b08e4f60406c0bec695d69695f7ade22d",
+      "original_sha256": "1d766d789c291c552f17bfb8f19d9bd4544a42607bbd4abae71a2093fb423867"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/av_b32_workloads/20261011T163819Z_profile_forward_phases_12d8e8dc/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/av_b32_workloads/20261011T163857Z_profile_forward_phases_e9eccdd2/config.resolved.json",
+      "exported_sha256": "101e06ff6eade5e3ecc3744be0adf75b08e4f60406c0bec695d69695f7ade22d",
+      "original_sha256": "1d766d789c291c552f17bfb8f19d9bd4544a42607bbd4abae71a2093fb423867"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/av_b32_workloads/20261011T163857Z_profile_forward_phases_e9eccdd2/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/av_b32_workloads/20261011T163935Z_profile_forward_phases_17489059/config.resolved.json",
+      "exported_sha256": "101e06ff6eade5e3ecc3744be0adf75b08e4f60406c0bec695d69695f7ade22d",
+      "original_sha256": "1d766d789c291c552f17bfb8f19d9bd4544a42607bbd4abae71a2093fb423867"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/av_b32_workloads/20261011T163935Z_profile_forward_phases_17489059/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/av_b32_workloads/20261011T164012Z_profile_forward_phases_4fa7c9af/config.resolved.json",
+      "exported_sha256": "101e06ff6eade5e3ecc3744be0adf75b08e4f60406c0bec695d69695f7ade22d",
+      "original_sha256": "1d766d789c291c552f17bfb8f19d9bd4544a42607bbd4abae71a2093fb423867"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/av_b32_workloads/20261011T164012Z_profile_forward_phases_4fa7c9af/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/av_b32_workloads/20261011T164050Z_profile_forward_phases_231a4e18/config.resolved.json",
+      "exported_sha256": "101e06ff6eade5e3ecc3744be0adf75b08e4f60406c0bec695d69695f7ade22d",
+      "original_sha256": "1d766d789c291c552f17bfb8f19d9bd4544a42607bbd4abae71a2093fb423867"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/av_b32_workloads/20261011T164050Z_profile_forward_phases_231a4e18/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/av_b32_workloads/20261011T164127Z_profile_forward_phases_998c52b2/config.resolved.json",
+      "exported_sha256": "101e06ff6eade5e3ecc3744be0adf75b08e4f60406c0bec695d69695f7ade22d",
+      "original_sha256": "1d766d789c291c552f17bfb8f19d9bd4544a42607bbd4abae71a2093fb423867"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/av_b32_workloads/20261011T164127Z_profile_forward_phases_998c52b2/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Retained historical migration input hashes and updated checksums for published metadata copies; capture configuration semantics unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/capture-config.json",
+      "exported_sha256": "f1cdb1f5ff26c53747809f7f5f4424380cd41d00840076a8204b26d1737ea629",
+      "original_sha256": "9a00034536ab8e6623d3e8d2faad72d019ef6a7bffec5cd67fc3c4fa0b1cde67"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/commands.sh",
+      "exported_sha256": "f403079b6b1b3b3af7763b4c1e7ee65aef84e2e92ee85e2e82f4b8dacfe5305c",
+      "original_sha256": "594d15413f7bf7f2246aa5f3fa4cc4265b066bff61f87395955e34a29484f212"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/gpu-after.txt",
+      "exported_sha256": "f307dd1d64aed1cf42c91afc2abee94ab0044bf835d0d9ed3f4a236d65093546",
+      "original_sha256": "227cf4a45a448254a4f5c070ede7bc4c7e06bc16cab7674b9ea1dcfff86efffd"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/gpu-before.txt",
+      "exported_sha256": "4f668dbbba502886e61e4808985b7406ceb1b22b6d9da99e97531dedccedd65d",
+      "original_sha256": "71482bb1f3c4d6d6e83f6dc04780e8b2028242d6cffc66181dec986cb522543a"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/invocation.sh",
+      "exported_sha256": "ffb7ba61c818e7ebc08c6ef1e77407fe8830eeacde5a0af53676f480184aa860",
+      "original_sha256": "98419d3045d36cca321fe5ae66b0edb6cea23f195bbc879ff8a5218608c0abda"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_convert_b16.log",
+      "exported_sha256": "0255605abe386da6e6d7bb0b972afb68548eb203b8d78b514c7c7d1012574353",
+      "original_sha256": "92f3ef2cb81c118384ec621478dd37a7e8a0bf78343dca8f6419e7a606f35683"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_convert_b16.selection.json",
+      "exported_sha256": "19e460f53e5c92667e81798415d025e8fee385309307f28a5bbb57e457273a72",
+      "original_sha256": "15becdab657022c0474c4e0b156abebe402ca80d9aa349f9d71be23e25a13a08"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_convert_b16_workloads/20261011T164206Z_profile_forward_phases_cef5b239/config.resolved.json",
+      "exported_sha256": "b247db130a334da80cef0850bada6526727f92f3d5d1b3f9b0a040fa4817931e",
+      "original_sha256": "ec3e15ee62cd094ad9667ab20b8ea140124899f2c09238b948a44cc4e051d6be"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_convert_b16_workloads/20261011T164206Z_profile_forward_phases_cef5b239/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_convert_b16_workloads/20261011T164503Z_profile_forward_phases_c8736ee9/config.resolved.json",
+      "exported_sha256": "b247db130a334da80cef0850bada6526727f92f3d5d1b3f9b0a040fa4817931e",
+      "original_sha256": "ec3e15ee62cd094ad9667ab20b8ea140124899f2c09238b948a44cc4e051d6be"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_convert_b16_workloads/20261011T164503Z_profile_forward_phases_c8736ee9/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_convert_b16_workloads/20261011T164800Z_profile_forward_phases_05794dfa/config.resolved.json",
+      "exported_sha256": "b247db130a334da80cef0850bada6526727f92f3d5d1b3f9b0a040fa4817931e",
+      "original_sha256": "ec3e15ee62cd094ad9667ab20b8ea140124899f2c09238b948a44cc4e051d6be"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_convert_b16_workloads/20261011T164800Z_profile_forward_phases_05794dfa/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_convert_b16_workloads/20261011T165057Z_profile_forward_phases_692e38e4/config.resolved.json",
+      "exported_sha256": "b247db130a334da80cef0850bada6526727f92f3d5d1b3f9b0a040fa4817931e",
+      "original_sha256": "ec3e15ee62cd094ad9667ab20b8ea140124899f2c09238b948a44cc4e051d6be"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_convert_b16_workloads/20261011T165057Z_profile_forward_phases_692e38e4/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_convert_b16_workloads/20261011T165354Z_profile_forward_phases_6480a9d4/config.resolved.json",
+      "exported_sha256": "b247db130a334da80cef0850bada6526727f92f3d5d1b3f9b0a040fa4817931e",
+      "original_sha256": "ec3e15ee62cd094ad9667ab20b8ea140124899f2c09238b948a44cc4e051d6be"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_convert_b16_workloads/20261011T165354Z_profile_forward_phases_6480a9d4/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_convert_b16_workloads/20261011T165651Z_profile_forward_phases_f41b23e7/config.resolved.json",
+      "exported_sha256": "b247db130a334da80cef0850bada6526727f92f3d5d1b3f9b0a040fa4817931e",
+      "original_sha256": "ec3e15ee62cd094ad9667ab20b8ea140124899f2c09238b948a44cc4e051d6be"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_convert_b16_workloads/20261011T165651Z_profile_forward_phases_f41b23e7/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_convert_b16_workloads/20261011T165948Z_profile_forward_phases_fa67b5ef/config.resolved.json",
+      "exported_sha256": "b247db130a334da80cef0850bada6526727f92f3d5d1b3f9b0a040fa4817931e",
+      "original_sha256": "ec3e15ee62cd094ad9667ab20b8ea140124899f2c09238b948a44cc4e051d6be"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_convert_b16_workloads/20261011T165948Z_profile_forward_phases_fa67b5ef/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_convert_b16_workloads/20261011T170245Z_profile_forward_phases_73d4acf9/config.resolved.json",
+      "exported_sha256": "b247db130a334da80cef0850bada6526727f92f3d5d1b3f9b0a040fa4817931e",
+      "original_sha256": "ec3e15ee62cd094ad9667ab20b8ea140124899f2c09238b948a44cc4e051d6be"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_convert_b16_workloads/20261011T170245Z_profile_forward_phases_73d4acf9/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_convert_b32.log",
+      "exported_sha256": "2fea51e827aac1f37f7d4b1202d3ec4f50e31243b949d0eac3fd83e5f603b901",
+      "original_sha256": "9d38c41efe508ad6a5cdcdcb4206f5eb849762eb98a0527c37f7d2759d0387a6"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_convert_b32.selection.json",
+      "exported_sha256": "99169e74a78f8758b88b0811ad69733bd22c1599c69bcf0f36017b36cf5b8067",
+      "original_sha256": "78436fc6cc450ce813990407cee1fdd9e8f778bfcb29157091233e371dcf295b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_convert_b32_workloads/20261011T170543Z_profile_forward_phases_c1da7579/config.resolved.json",
+      "exported_sha256": "47ff0156802cb2ef465882ead90e577c3ec990c282a3e682e51a9a838252fa74",
+      "original_sha256": "93b90c85d7376b0de0d752aedd165023311fade044b5b42e944c57bf6623f90a"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_convert_b32_workloads/20261011T170543Z_profile_forward_phases_c1da7579/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_convert_b32_workloads/20261011T170840Z_profile_forward_phases_6cb2cc66/config.resolved.json",
+      "exported_sha256": "47ff0156802cb2ef465882ead90e577c3ec990c282a3e682e51a9a838252fa74",
+      "original_sha256": "93b90c85d7376b0de0d752aedd165023311fade044b5b42e944c57bf6623f90a"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_convert_b32_workloads/20261011T170840Z_profile_forward_phases_6cb2cc66/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_convert_b32_workloads/20261011T171137Z_profile_forward_phases_5fad4e76/config.resolved.json",
+      "exported_sha256": "47ff0156802cb2ef465882ead90e577c3ec990c282a3e682e51a9a838252fa74",
+      "original_sha256": "93b90c85d7376b0de0d752aedd165023311fade044b5b42e944c57bf6623f90a"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_convert_b32_workloads/20261011T171137Z_profile_forward_phases_5fad4e76/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_convert_b32_workloads/20261011T171434Z_profile_forward_phases_74fc3df0/config.resolved.json",
+      "exported_sha256": "47ff0156802cb2ef465882ead90e577c3ec990c282a3e682e51a9a838252fa74",
+      "original_sha256": "93b90c85d7376b0de0d752aedd165023311fade044b5b42e944c57bf6623f90a"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_convert_b32_workloads/20261011T171434Z_profile_forward_phases_74fc3df0/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_convert_b32_workloads/20261011T171731Z_profile_forward_phases_ea0686e8/config.resolved.json",
+      "exported_sha256": "47ff0156802cb2ef465882ead90e577c3ec990c282a3e682e51a9a838252fa74",
+      "original_sha256": "93b90c85d7376b0de0d752aedd165023311fade044b5b42e944c57bf6623f90a"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_convert_b32_workloads/20261011T171731Z_profile_forward_phases_ea0686e8/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_convert_b32_workloads/20261011T172029Z_profile_forward_phases_f9a2c5a6/config.resolved.json",
+      "exported_sha256": "47ff0156802cb2ef465882ead90e577c3ec990c282a3e682e51a9a838252fa74",
+      "original_sha256": "93b90c85d7376b0de0d752aedd165023311fade044b5b42e944c57bf6623f90a"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_convert_b32_workloads/20261011T172029Z_profile_forward_phases_f9a2c5a6/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_convert_b32_workloads/20261011T172326Z_profile_forward_phases_6471ada1/config.resolved.json",
+      "exported_sha256": "47ff0156802cb2ef465882ead90e577c3ec990c282a3e682e51a9a838252fa74",
+      "original_sha256": "93b90c85d7376b0de0d752aedd165023311fade044b5b42e944c57bf6623f90a"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_convert_b32_workloads/20261011T172326Z_profile_forward_phases_6471ada1/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_convert_b32_workloads/20261011T172623Z_profile_forward_phases_c505a35e/config.resolved.json",
+      "exported_sha256": "47ff0156802cb2ef465882ead90e577c3ec990c282a3e682e51a9a838252fa74",
+      "original_sha256": "93b90c85d7376b0de0d752aedd165023311fade044b5b42e944c57bf6623f90a"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_convert_b32_workloads/20261011T172623Z_profile_forward_phases_c505a35e/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_expand_b16.log",
+      "exported_sha256": "e038cd8eea484eae5d07865b20bc5f8ff0f0dc36642a45f773abbe82e631e83d",
+      "original_sha256": "c9c51fe8fdebfd09ab57dedb041bf4e032d85ed4104342d92a751005c75293db"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_expand_b16.selection.json",
+      "exported_sha256": "1cb50569984af056a3258c15e8fd49931e817eb85e7391b44a07e6eb609853bf",
+      "original_sha256": "8a4866333881ab705152b95b9e319c1c177447689fe3918911c1c7958eca15a3"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_expand_b16_workloads/20261011T154611Z_profile_forward_phases_03d98946/config.resolved.json",
+      "exported_sha256": "0e3132018f3748287db9bd88734e78814a7532a35f8e643c4f8130f696e93b66",
+      "original_sha256": "a559d127d99f474081f31a786cb29683c1d26625c2c3786ec563a093b0b876fc"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_expand_b16_workloads/20261011T154611Z_profile_forward_phases_03d98946/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_expand_b16_workloads/20261011T154745Z_profile_forward_phases_f0563556/config.resolved.json",
+      "exported_sha256": "0e3132018f3748287db9bd88734e78814a7532a35f8e643c4f8130f696e93b66",
+      "original_sha256": "a559d127d99f474081f31a786cb29683c1d26625c2c3786ec563a093b0b876fc"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_expand_b16_workloads/20261011T154745Z_profile_forward_phases_f0563556/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_expand_b16_workloads/20261011T154919Z_profile_forward_phases_68ee1963/config.resolved.json",
+      "exported_sha256": "0e3132018f3748287db9bd88734e78814a7532a35f8e643c4f8130f696e93b66",
+      "original_sha256": "a559d127d99f474081f31a786cb29683c1d26625c2c3786ec563a093b0b876fc"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_expand_b16_workloads/20261011T154919Z_profile_forward_phases_68ee1963/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_expand_b16_workloads/20261011T155053Z_profile_forward_phases_9debcef8/config.resolved.json",
+      "exported_sha256": "0e3132018f3748287db9bd88734e78814a7532a35f8e643c4f8130f696e93b66",
+      "original_sha256": "a559d127d99f474081f31a786cb29683c1d26625c2c3786ec563a093b0b876fc"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_expand_b16_workloads/20261011T155053Z_profile_forward_phases_9debcef8/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_expand_b16_workloads/20261011T155227Z_profile_forward_phases_ca481c73/config.resolved.json",
+      "exported_sha256": "0e3132018f3748287db9bd88734e78814a7532a35f8e643c4f8130f696e93b66",
+      "original_sha256": "a559d127d99f474081f31a786cb29683c1d26625c2c3786ec563a093b0b876fc"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_expand_b16_workloads/20261011T155227Z_profile_forward_phases_ca481c73/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_expand_b16_workloads/20261011T155401Z_profile_forward_phases_af4a4d8e/config.resolved.json",
+      "exported_sha256": "0e3132018f3748287db9bd88734e78814a7532a35f8e643c4f8130f696e93b66",
+      "original_sha256": "a559d127d99f474081f31a786cb29683c1d26625c2c3786ec563a093b0b876fc"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_expand_b16_workloads/20261011T155401Z_profile_forward_phases_af4a4d8e/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_expand_b16_workloads/20261011T155534Z_profile_forward_phases_0858045b/config.resolved.json",
+      "exported_sha256": "0e3132018f3748287db9bd88734e78814a7532a35f8e643c4f8130f696e93b66",
+      "original_sha256": "a559d127d99f474081f31a786cb29683c1d26625c2c3786ec563a093b0b876fc"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_expand_b16_workloads/20261011T155534Z_profile_forward_phases_0858045b/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_expand_b16_workloads/20261011T155708Z_profile_forward_phases_76a47ee1/config.resolved.json",
+      "exported_sha256": "0e3132018f3748287db9bd88734e78814a7532a35f8e643c4f8130f696e93b66",
+      "original_sha256": "a559d127d99f474081f31a786cb29683c1d26625c2c3786ec563a093b0b876fc"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_expand_b16_workloads/20261011T155708Z_profile_forward_phases_76a47ee1/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_expand_b32.log",
+      "exported_sha256": "fd0d4238f228f91f966ff12acc4c1a97ddd5eee87c642265494a99dcbe989169",
+      "original_sha256": "87cdce480aebdc993a995c8273b9fcc174719d1591a47a5f2d6c2f72609b5008"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_expand_b32.selection.json",
+      "exported_sha256": "ca08595f81d809c1346d2a1b68b53da2b1a6120c3e9c4f65e26d7b98541870ce",
+      "original_sha256": "0258520529e0c98d10154bcbabf06b0ce79bfa2dc34cdf6e545c9a4f6de3dfa2"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_expand_b32_workloads/20261011T155843Z_profile_forward_phases_8d0e93c8/config.resolved.json",
+      "exported_sha256": "0940d6c154317162e4a9c27915c76dea0c34b6d48fd1cba8b1f4dbaaab91b2cf",
+      "original_sha256": "619261300bd91ec132853e8bac3e03ef74ee61649d0eed4a326975820a5b1239"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_expand_b32_workloads/20261011T155843Z_profile_forward_phases_8d0e93c8/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_expand_b32_workloads/20261011T160016Z_profile_forward_phases_94d2fe30/config.resolved.json",
+      "exported_sha256": "0940d6c154317162e4a9c27915c76dea0c34b6d48fd1cba8b1f4dbaaab91b2cf",
+      "original_sha256": "619261300bd91ec132853e8bac3e03ef74ee61649d0eed4a326975820a5b1239"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_expand_b32_workloads/20261011T160016Z_profile_forward_phases_94d2fe30/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_expand_b32_workloads/20261011T160150Z_profile_forward_phases_5dcaacbe/config.resolved.json",
+      "exported_sha256": "0940d6c154317162e4a9c27915c76dea0c34b6d48fd1cba8b1f4dbaaab91b2cf",
+      "original_sha256": "619261300bd91ec132853e8bac3e03ef74ee61649d0eed4a326975820a5b1239"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_expand_b32_workloads/20261011T160150Z_profile_forward_phases_5dcaacbe/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_expand_b32_workloads/20261011T160324Z_profile_forward_phases_05e2c74c/config.resolved.json",
+      "exported_sha256": "0940d6c154317162e4a9c27915c76dea0c34b6d48fd1cba8b1f4dbaaab91b2cf",
+      "original_sha256": "619261300bd91ec132853e8bac3e03ef74ee61649d0eed4a326975820a5b1239"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_expand_b32_workloads/20261011T160324Z_profile_forward_phases_05e2c74c/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_expand_b32_workloads/20261011T160458Z_profile_forward_phases_35890d32/config.resolved.json",
+      "exported_sha256": "0940d6c154317162e4a9c27915c76dea0c34b6d48fd1cba8b1f4dbaaab91b2cf",
+      "original_sha256": "619261300bd91ec132853e8bac3e03ef74ee61649d0eed4a326975820a5b1239"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_expand_b32_workloads/20261011T160458Z_profile_forward_phases_35890d32/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_expand_b32_workloads/20261011T160632Z_profile_forward_phases_b4efa07e/config.resolved.json",
+      "exported_sha256": "0940d6c154317162e4a9c27915c76dea0c34b6d48fd1cba8b1f4dbaaab91b2cf",
+      "original_sha256": "619261300bd91ec132853e8bac3e03ef74ee61649d0eed4a326975820a5b1239"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_expand_b32_workloads/20261011T160632Z_profile_forward_phases_b4efa07e/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_expand_b32_workloads/20261011T160806Z_profile_forward_phases_fe7ea97c/config.resolved.json",
+      "exported_sha256": "0940d6c154317162e4a9c27915c76dea0c34b6d48fd1cba8b1f4dbaaab91b2cf",
+      "original_sha256": "619261300bd91ec132853e8bac3e03ef74ee61649d0eed4a326975820a5b1239"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_expand_b32_workloads/20261011T160806Z_profile_forward_phases_fe7ea97c/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_expand_b32_workloads/20261011T160939Z_profile_forward_phases_fe6dea0a/config.resolved.json",
+      "exported_sha256": "0940d6c154317162e4a9c27915c76dea0c34b6d48fd1cba8b1f4dbaaab91b2cf",
+      "original_sha256": "619261300bd91ec132853e8bac3e03ef74ee61649d0eed4a326975820a5b1239"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_expand_b32_workloads/20261011T160939Z_profile_forward_phases_fe6dea0a/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b16.log",
+      "exported_sha256": "132dcc3e0f48110f4e48ebbb50b13bf788d82415ecd9b0c3b5a430a976ec6a57",
+      "original_sha256": "a17a765bba41e1c5319102e80eef6afe41a5f278154b9b32fb2b92ded90880b9"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b16.selection.json",
+      "exported_sha256": "3b6a4e964e001fe22fe65bb3e8e5a7841c3e1893e5483854e300a5d5b09afb99",
+      "original_sha256": "911b868bd76486f855073a220f20f3700f9ecb57de1416a06eb99c8db250f060"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b16_workloads/20261011T153639Z_profile_forward_phases_7112a2df/config.resolved.json",
+      "exported_sha256": "51b4f8f32032d2fea1029bfb5ba816dd19533f3cb2913630d743b82433f28b96",
+      "original_sha256": "4e699d2244d5b8b69229e5c077b20462f3da408d97a6e9066cc57e1f9801f698"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b16_workloads/20261011T153639Z_profile_forward_phases_7112a2df/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b16_workloads/20261011T153713Z_profile_forward_phases_45a769e7/config.resolved.json",
+      "exported_sha256": "51b4f8f32032d2fea1029bfb5ba816dd19533f3cb2913630d743b82433f28b96",
+      "original_sha256": "4e699d2244d5b8b69229e5c077b20462f3da408d97a6e9066cc57e1f9801f698"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b16_workloads/20261011T153713Z_profile_forward_phases_45a769e7/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b16_workloads/20261011T153746Z_profile_forward_phases_40a42cdc/config.resolved.json",
+      "exported_sha256": "51b4f8f32032d2fea1029bfb5ba816dd19533f3cb2913630d743b82433f28b96",
+      "original_sha256": "4e699d2244d5b8b69229e5c077b20462f3da408d97a6e9066cc57e1f9801f698"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b16_workloads/20261011T153746Z_profile_forward_phases_40a42cdc/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b16_workloads/20261011T153819Z_profile_forward_phases_f4e1c293/config.resolved.json",
+      "exported_sha256": "51b4f8f32032d2fea1029bfb5ba816dd19533f3cb2913630d743b82433f28b96",
+      "original_sha256": "4e699d2244d5b8b69229e5c077b20462f3da408d97a6e9066cc57e1f9801f698"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b16_workloads/20261011T153819Z_profile_forward_phases_f4e1c293/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b16_workloads/20261011T153853Z_profile_forward_phases_dd77ee3a/config.resolved.json",
+      "exported_sha256": "51b4f8f32032d2fea1029bfb5ba816dd19533f3cb2913630d743b82433f28b96",
+      "original_sha256": "4e699d2244d5b8b69229e5c077b20462f3da408d97a6e9066cc57e1f9801f698"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b16_workloads/20261011T153853Z_profile_forward_phases_dd77ee3a/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b16_workloads/20261011T153926Z_profile_forward_phases_bc084076/config.resolved.json",
+      "exported_sha256": "51b4f8f32032d2fea1029bfb5ba816dd19533f3cb2913630d743b82433f28b96",
+      "original_sha256": "4e699d2244d5b8b69229e5c077b20462f3da408d97a6e9066cc57e1f9801f698"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b16_workloads/20261011T153926Z_profile_forward_phases_bc084076/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b16_workloads/20261011T153959Z_profile_forward_phases_b95dd243/config.resolved.json",
+      "exported_sha256": "51b4f8f32032d2fea1029bfb5ba816dd19533f3cb2913630d743b82433f28b96",
+      "original_sha256": "4e699d2244d5b8b69229e5c077b20462f3da408d97a6e9066cc57e1f9801f698"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b16_workloads/20261011T153959Z_profile_forward_phases_b95dd243/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b16_workloads/20261011T154033Z_profile_forward_phases_717c207f/config.resolved.json",
+      "exported_sha256": "51b4f8f32032d2fea1029bfb5ba816dd19533f3cb2913630d743b82433f28b96",
+      "original_sha256": "4e699d2244d5b8b69229e5c077b20462f3da408d97a6e9066cc57e1f9801f698"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b16_workloads/20261011T154033Z_profile_forward_phases_717c207f/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b32.log",
+      "exported_sha256": "262bea95959aa99928110bfd9cf124bca4789209302598498bceffa888391cef",
+      "original_sha256": "643f7deedea6005c8227ba51888cb05e27a59df9ed21165ad507d9091d65a90f"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b32.selection.json",
+      "exported_sha256": "a98fed3ae3ec59957597d1611c04ee891bb35b90403f4c3257166994d795fa9e",
+      "original_sha256": "68b9607e52688a13b319b453ef84431ec87c158c1a33f6757f0b66f1b528e09e"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b32_workloads/20261011T154107Z_profile_forward_phases_f9cdc698/config.resolved.json",
+      "exported_sha256": "f725017a6965ca636f7f3e2ff331766fd03b6251d6e252f6f50436d2e13cc42f",
+      "original_sha256": "c5a567369dcda404e4de67e4e83c5179702ca7667948c704f165a2959ba80234"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b32_workloads/20261011T154107Z_profile_forward_phases_f9cdc698/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b32_workloads/20261011T154145Z_profile_forward_phases_c4485c7b/config.resolved.json",
+      "exported_sha256": "f725017a6965ca636f7f3e2ff331766fd03b6251d6e252f6f50436d2e13cc42f",
+      "original_sha256": "c5a567369dcda404e4de67e4e83c5179702ca7667948c704f165a2959ba80234"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b32_workloads/20261011T154145Z_profile_forward_phases_c4485c7b/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b32_workloads/20261011T154223Z_profile_forward_phases_a07df3d1/config.resolved.json",
+      "exported_sha256": "f725017a6965ca636f7f3e2ff331766fd03b6251d6e252f6f50436d2e13cc42f",
+      "original_sha256": "c5a567369dcda404e4de67e4e83c5179702ca7667948c704f165a2959ba80234"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b32_workloads/20261011T154223Z_profile_forward_phases_a07df3d1/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b32_workloads/20261011T154301Z_profile_forward_phases_35f1ea6f/config.resolved.json",
+      "exported_sha256": "f725017a6965ca636f7f3e2ff331766fd03b6251d6e252f6f50436d2e13cc42f",
+      "original_sha256": "c5a567369dcda404e4de67e4e83c5179702ca7667948c704f165a2959ba80234"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b32_workloads/20261011T154301Z_profile_forward_phases_35f1ea6f/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b32_workloads/20261011T154338Z_profile_forward_phases_390d83c1/config.resolved.json",
+      "exported_sha256": "f725017a6965ca636f7f3e2ff331766fd03b6251d6e252f6f50436d2e13cc42f",
+      "original_sha256": "c5a567369dcda404e4de67e4e83c5179702ca7667948c704f165a2959ba80234"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b32_workloads/20261011T154338Z_profile_forward_phases_390d83c1/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b32_workloads/20261011T154416Z_profile_forward_phases_23e250b9/config.resolved.json",
+      "exported_sha256": "f725017a6965ca636f7f3e2ff331766fd03b6251d6e252f6f50436d2e13cc42f",
+      "original_sha256": "c5a567369dcda404e4de67e4e83c5179702ca7667948c704f165a2959ba80234"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b32_workloads/20261011T154416Z_profile_forward_phases_23e250b9/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b32_workloads/20261011T154454Z_profile_forward_phases_0248d57a/config.resolved.json",
+      "exported_sha256": "f725017a6965ca636f7f3e2ff331766fd03b6251d6e252f6f50436d2e13cc42f",
+      "original_sha256": "c5a567369dcda404e4de67e4e83c5179702ca7667948c704f165a2959ba80234"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b32_workloads/20261011T154454Z_profile_forward_phases_0248d57a/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b32_workloads/20261011T154532Z_profile_forward_phases_0ca0737d/config.resolved.json",
+      "exported_sha256": "f725017a6965ca636f7f3e2ff331766fd03b6251d6e252f6f50436d2e13cc42f",
+      "original_sha256": "c5a567369dcda404e4de67e4e83c5179702ca7667948c704f165a2959ba80234"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b32_workloads/20261011T154532Z_profile_forward_phases_0ca0737d/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/scale_b16.log",
+      "exported_sha256": "a73240fb1235200258ae843a7b38b85551e0658b510e262c7f4b082a4a120f09",
+      "original_sha256": "8520115e99179c78f0d54ba56bf33d047ebd55956685df6d9eda914f1dc45024"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/scale_b16.selection.json",
+      "exported_sha256": "b3d7a9076bef6aefcc84968e88ee7d919477e0665bd72ddde773c7468b2971fb",
+      "original_sha256": "1ed906d8c3f3b9da2440305d6d938938cc8c48c7098e900b244d27dac1632578"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/scale_b16_workloads/20261011T161114Z_profile_forward_phases_baaab462/config.resolved.json",
+      "exported_sha256": "c2ac0d85f63c298f282510a072098d758f23c154ad10343e3d845596484347a0",
+      "original_sha256": "fc790c2d5252e304d462c96fa64cb272da7aedb350c2340dcda506aa29a8e0b5"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/scale_b16_workloads/20261011T161114Z_profile_forward_phases_baaab462/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/scale_b16_workloads/20261011T161234Z_profile_forward_phases_c495b186/config.resolved.json",
+      "exported_sha256": "c2ac0d85f63c298f282510a072098d758f23c154ad10343e3d845596484347a0",
+      "original_sha256": "fc790c2d5252e304d462c96fa64cb272da7aedb350c2340dcda506aa29a8e0b5"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/scale_b16_workloads/20261011T161234Z_profile_forward_phases_c495b186/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/scale_b16_workloads/20261011T161354Z_profile_forward_phases_21e4be69/config.resolved.json",
+      "exported_sha256": "c2ac0d85f63c298f282510a072098d758f23c154ad10343e3d845596484347a0",
+      "original_sha256": "fc790c2d5252e304d462c96fa64cb272da7aedb350c2340dcda506aa29a8e0b5"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/scale_b16_workloads/20261011T161354Z_profile_forward_phases_21e4be69/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/scale_b16_workloads/20261011T161514Z_profile_forward_phases_3bf84633/config.resolved.json",
+      "exported_sha256": "c2ac0d85f63c298f282510a072098d758f23c154ad10343e3d845596484347a0",
+      "original_sha256": "fc790c2d5252e304d462c96fa64cb272da7aedb350c2340dcda506aa29a8e0b5"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/scale_b16_workloads/20261011T161514Z_profile_forward_phases_3bf84633/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/scale_b16_workloads/20261011T161633Z_profile_forward_phases_b3c806ba/config.resolved.json",
+      "exported_sha256": "c2ac0d85f63c298f282510a072098d758f23c154ad10343e3d845596484347a0",
+      "original_sha256": "fc790c2d5252e304d462c96fa64cb272da7aedb350c2340dcda506aa29a8e0b5"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/scale_b16_workloads/20261011T161633Z_profile_forward_phases_b3c806ba/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/scale_b16_workloads/20261011T161753Z_profile_forward_phases_65e0a004/config.resolved.json",
+      "exported_sha256": "c2ac0d85f63c298f282510a072098d758f23c154ad10343e3d845596484347a0",
+      "original_sha256": "fc790c2d5252e304d462c96fa64cb272da7aedb350c2340dcda506aa29a8e0b5"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/scale_b16_workloads/20261011T161753Z_profile_forward_phases_65e0a004/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/scale_b16_workloads/20261011T161913Z_profile_forward_phases_ac087184/config.resolved.json",
+      "exported_sha256": "c2ac0d85f63c298f282510a072098d758f23c154ad10343e3d845596484347a0",
+      "original_sha256": "fc790c2d5252e304d462c96fa64cb272da7aedb350c2340dcda506aa29a8e0b5"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/scale_b16_workloads/20261011T161913Z_profile_forward_phases_ac087184/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/scale_b16_workloads/20261011T162033Z_profile_forward_phases_8d7e5485/config.resolved.json",
+      "exported_sha256": "c2ac0d85f63c298f282510a072098d758f23c154ad10343e3d845596484347a0",
+      "original_sha256": "fc790c2d5252e304d462c96fa64cb272da7aedb350c2340dcda506aa29a8e0b5"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/scale_b16_workloads/20261011T162033Z_profile_forward_phases_8d7e5485/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/scale_b32.log",
+      "exported_sha256": "9b9e4b46a632d4953df02b88004df5e877f854cc8d9887529555e6645260da3c",
+      "original_sha256": "a237da4b845f3f21f734579d35b94ace179a0cbbac248c5c484c2db8dd7b8550"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/scale_b32.selection.json",
+      "exported_sha256": "51a1d1dfd659339a83855611cc8c8eb837919d70f503340ffa48bb8ebcf271f4",
+      "original_sha256": "069445a8e06bdc67c746536241162b84983d811a843e5e3fc2845d1ab18cc026"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/scale_b32_workloads/20261011T162154Z_profile_forward_phases_137bed50/config.resolved.json",
+      "exported_sha256": "19c5dd30966d4c0acd26d318af18cf79012f1dc97e2888ffa85fbd9df33e27d9",
+      "original_sha256": "278166e603de211d5b0930db040b4ba6911d57d48e9842223d37fb6c380fd5ec"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/scale_b32_workloads/20261011T162154Z_profile_forward_phases_137bed50/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/scale_b32_workloads/20261011T162314Z_profile_forward_phases_e5defee7/config.resolved.json",
+      "exported_sha256": "19c5dd30966d4c0acd26d318af18cf79012f1dc97e2888ffa85fbd9df33e27d9",
+      "original_sha256": "278166e603de211d5b0930db040b4ba6911d57d48e9842223d37fb6c380fd5ec"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/scale_b32_workloads/20261011T162314Z_profile_forward_phases_e5defee7/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/scale_b32_workloads/20261011T162434Z_profile_forward_phases_55e3747c/config.resolved.json",
+      "exported_sha256": "19c5dd30966d4c0acd26d318af18cf79012f1dc97e2888ffa85fbd9df33e27d9",
+      "original_sha256": "278166e603de211d5b0930db040b4ba6911d57d48e9842223d37fb6c380fd5ec"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/scale_b32_workloads/20261011T162434Z_profile_forward_phases_55e3747c/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/scale_b32_workloads/20261011T162555Z_profile_forward_phases_a1ba76d4/config.resolved.json",
+      "exported_sha256": "19c5dd30966d4c0acd26d318af18cf79012f1dc97e2888ffa85fbd9df33e27d9",
+      "original_sha256": "278166e603de211d5b0930db040b4ba6911d57d48e9842223d37fb6c380fd5ec"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/scale_b32_workloads/20261011T162555Z_profile_forward_phases_a1ba76d4/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/scale_b32_workloads/20261011T162715Z_profile_forward_phases_af77c93b/config.resolved.json",
+      "exported_sha256": "19c5dd30966d4c0acd26d318af18cf79012f1dc97e2888ffa85fbd9df33e27d9",
+      "original_sha256": "278166e603de211d5b0930db040b4ba6911d57d48e9842223d37fb6c380fd5ec"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/scale_b32_workloads/20261011T162715Z_profile_forward_phases_af77c93b/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/scale_b32_workloads/20261011T162835Z_profile_forward_phases_a290f869/config.resolved.json",
+      "exported_sha256": "19c5dd30966d4c0acd26d318af18cf79012f1dc97e2888ffa85fbd9df33e27d9",
+      "original_sha256": "278166e603de211d5b0930db040b4ba6911d57d48e9842223d37fb6c380fd5ec"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/scale_b32_workloads/20261011T162835Z_profile_forward_phases_a290f869/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/scale_b32_workloads/20261011T162955Z_profile_forward_phases_1ee16fa4/config.resolved.json",
+      "exported_sha256": "19c5dd30966d4c0acd26d318af18cf79012f1dc97e2888ffa85fbd9df33e27d9",
+      "original_sha256": "278166e603de211d5b0930db040b4ba6911d57d48e9842223d37fb6c380fd5ec"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/scale_b32_workloads/20261011T162955Z_profile_forward_phases_1ee16fa4/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/scale_b32_workloads/20261011T163115Z_profile_forward_phases_af28bdfb/config.resolved.json",
+      "exported_sha256": "19c5dd30966d4c0acd26d318af18cf79012f1dc97e2888ffa85fbd9df33e27d9",
+      "original_sha256": "278166e603de211d5b0930db040b4ba6911d57d48e9842223d37fb6c380fd5ec"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/scale_b32_workloads/20261011T163115Z_profile_forward_phases_af28bdfb/environment.json",
+      "exported_sha256": "06d542acc49bb88cc7b170b8595a6e308cfc3cc40577bbf4360a24d761d99858",
+      "original_sha256": "cb0cc0c767ee6b977652e115bf65c336ae5119a09d80bfa0778c5ce4e46a9a6b"
+    },
+    {
+      "description": "Replaced machine-specific paths or identifiers; workload, measurements and historical source identity unchanged.",
+      "destination": "results/published/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/settings.txt",
+      "exported_sha256": "41efbe84062a9d95fb2707358a7474ef4c618ac16baf40868a702d72c2a96c17",
+      "original_sha256": "26f4c3c8b04072fd54ac181d99fcb0fed137e3d019c4e5ca6c3af09122fcfae0"
+    },
+    {
+      "description": "Rebuilt analysis or figure provenance from published inputs; measured values unchanged.",
+      "destination": "results/studies/decode_attention_bandwidth/attention_bandwidth.png",
+      "exported_sha256": "df6172b07776d378230571da70822f87ba7a101cc6d891efd0134de813117138",
+      "original_sha256": "df6172b07776d378230571da70822f87ba7a101cc6d891efd0134de813117138"
+    },
+    {
+      "description": "Rebuilt analysis or figure provenance from published inputs; measured values unchanged.",
+      "destination": "results/studies/decode_attention_bandwidth/attention_bandwidth.sources.json",
+      "exported_sha256": "cc6482f0e00ff115183cedd282d6732d35b887ed77e29cb6963bb2065ae90510",
+      "original_sha256": "7f1f1a1c9bc7d1e67bd8e725e79cf5015b189daeb8a60c8a6c950b97e5973722"
+    },
+    {
+      "description": "Rebuilt analysis or figure provenance from published inputs; measured values unchanged.",
+      "destination": "results/studies/decode_attention_bandwidth/summary.json",
+      "exported_sha256": "6291d72e37f496aa9c311114118774883950affdca0dfbf1654cab250b2be591",
+      "original_sha256": "d4a10366ef0b51f6af4d8495958dc0e827d41fcaeb74d4d232906d3a627d3a30"
+    },
+    {
+      "description": "Rebuilt analysis or figure provenance from published inputs; measured values unchanged.",
+      "destination": "results/studies/decode_batch_scaling/scaling.png",
+      "exported_sha256": "82f117304cdfa091b29496e4120fe628df674482649a7dd097a496ad50e3713f",
+      "original_sha256": "82f117304cdfa091b29496e4120fe628df674482649a7dd097a496ad50e3713f"
+    },
+    {
+      "description": "Rebuilt analysis or figure provenance from published inputs; measured values unchanged.",
+      "destination": "results/studies/decode_batch_scaling/scaling.sources.json",
+      "exported_sha256": "59af6f1aa0721ee6abef70c6553481c09d5a2bce720cba23d6f8869f22e9e8a8",
+      "original_sha256": "52c680eac3374770c2f009abb1b8e5c9a3fa3de41b75fe4728c9dde03ab7787e"
+    },
+    {
+      "description": "Rebuilt analysis or figure provenance from published inputs; measured values unchanged.",
+      "destination": "results/studies/decode_overview/dram_throughput.png",
+      "exported_sha256": "91bfd5c079d245ce6839e067bdd46fd6269681d54010acc017b8fe128254d307",
+      "original_sha256": "91bfd5c079d245ce6839e067bdd46fd6269681d54010acc017b8fe128254d307"
+    },
+    {
+      "description": "Rebuilt analysis or figure provenance from published inputs; measured values unchanged.",
+      "destination": "results/studies/decode_overview/dram_throughput.sources.json",
+      "exported_sha256": "5fb01c196c4871b950101523e513feecb4659474cd074ce1313ce355abdd9722",
+      "original_sha256": "ccb8818d160cfc68d9fb07dc54d78bf4ce1da537f12ac5ce95ffc345b0b83efb"
+    },
+    {
+      "description": "Rebuilt strict-source trace analysis or figure provenance from published inputs using the released source-policy checks; execution metrics and measurements unchanged.",
+      "destination": "results/studies/decode_overview/execution.png",
+      "exported_sha256": "93292499a6ac553f2dcca16e85245ef383d5ab78da17299c8bcb123465545207",
+      "original_sha256": "93292499a6ac553f2dcca16e85245ef383d5ab78da17299c8bcb123465545207"
+    },
+    {
+      "description": "Rebuilt strict-source trace analysis or figure provenance from published inputs using the released source-policy checks; execution metrics and measurements unchanged.",
+      "destination": "results/studies/decode_overview/execution.sources.json",
+      "exported_sha256": "b9157c63dcf8ff2d35965469df74e3f472bf447af2d36a799ecb399b590d856b",
+      "original_sha256": "05fc85fb685f8f14cf13fe9385002ddce8f0618e8bdbb044b9857e2ab6b44603"
+    },
+    {
+      "description": "Rebuilt strict-source trace analysis or figure provenance from published inputs using the released source-policy checks; execution metrics and measurements unchanged.",
+      "destination": "results/studies/dense_execution_attention/matrix_arithmetic.png",
+      "exported_sha256": "ad2ccebbf53bcf6d06204cf57a70f4cd208dcc2cbe16d56cb08ec5dd34184792",
+      "original_sha256": "ad2ccebbf53bcf6d06204cf57a70f4cd208dcc2cbe16d56cb08ec5dd34184792"
+    },
+    {
+      "description": "Rebuilt strict-source trace analysis or figure provenance from published inputs using the released source-policy checks; execution metrics and measurements unchanged.",
+      "destination": "results/studies/dense_execution_attention/matrix_arithmetic.sources.json",
+      "exported_sha256": "173281ec3fd09c7495ea4a1e3dd5ad56917a5d252fa167ffa4abddf4f0086eeb",
+      "original_sha256": "e114eca3786c33391e49d3981b441baad79987019bdb763a38323a0ee934c92a"
+    },
+    {
+      "description": "Rebuilt strict-source trace analysis or figure provenance from published inputs using the released source-policy checks; execution metrics and measurements unchanged.",
+      "destination": "results/studies/dense_execution_attention/summary.json",
+      "exported_sha256": "b75ca619f777aec319f81b7c0679aec54daac27f403bd967ed39dd057f9b9014",
+      "original_sha256": "c56eb9b1f9e13e469b1da3d9b13bd70157e2a0a179ed95fcee4e1abbf14cba9c"
+    }
+  ]
+}

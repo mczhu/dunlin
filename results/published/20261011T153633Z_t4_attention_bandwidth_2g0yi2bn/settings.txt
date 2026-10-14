@@ -1,0 +1,7 @@
+baseline_prefix=/capture/project/results/published/20261009T215054Z_t4_decode_n500
+python=/capture/project/.venv/bin/python
+batch=both
+kernel=all
+details=False
+preflight=False
+metrics=gpu__time_duration.sum,dram__bytes_read.sum,dram__bytes_write.sum,dram__throughput.avg.pct_of_peak_sustained_elapsed,lts__throughput.avg.pct_of_peak_sustained_elapsed,lts__t_sector_hit_rate.pct,l1tex__throughput.avg.pct_of_peak_sustained_elapsed,sm__throughput.avg.pct_of_peak_sustained_elapsed

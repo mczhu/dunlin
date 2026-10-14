@@ -1,0 +1,56 @@
+{
+  "attention_implementation": "sdpa",
+  "batch_size": 4,
+  "compiled": false,
+  "decode_cache_policy": "fresh prompt prefill before each timed decode forward",
+  "decode_tokens_per_request": 1,
+  "experiment": "batched_forward_phases",
+  "formatted_prompt_sha256": "d8d011becd9ed7e4c9a231c863d2c9fd247d32ca05814aedd63d5b45ba9041f4",
+  "input_token_ids_sha256": "da5961ea2dc2ea7ceeadf27e017be9790e18ab41bb761834f78d88eb57449f4e",
+  "input_tokens_per_request": 500,
+  "logits_to_keep": 1,
+  "measured_runs_per_phase": 30,
+  "metric_definitions": {
+    "decode_aggregate_tokens_per_second": {
+      "formula": "batch_size / median_cached_decode_forward_latency_seconds",
+      "unit": "decoded tokens/second"
+    },
+    "median_cached_decode_forward_latency_seconds": {
+      "formula": "median(cached_decode latency_seconds)",
+      "unit": "seconds"
+    },
+    "median_prefill_forward_latency_seconds": {
+      "formula": "median(prefill latency_seconds)",
+      "unit": "seconds"
+    },
+    "prefill_aggregate_prompt_tokens_per_second": {
+      "formula": "batch_size * input_tokens_per_request / median_prefill_forward_latency_seconds",
+      "unit": "prompt tokens/second"
+    }
+  },
+  "metric_definitions_version": "batched_forward_phase_metrics_v1",
+  "model_class": "Qwen2ForCausalLM",
+  "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "output_root": "/capture/project/runs/20261003T150232Z_batch_context_matrix_9d7ad269",
+  "phases": [
+    "prefill",
+    "cached_decode"
+  ],
+  "prompt_recipe": "generate.BENCHMARK_PROMPT with Qwen user chat template, generation prompt, left truncation",
+  "prompt_recipe_id": "city_planning_qwen_chat_v1",
+  "prompt_text_sha256": "9331644019996a4599cc0f38179b836888b5441ef578b9f893999cfd93c11360",
+  "requested_device": "auto",
+  "requested_dtype": "auto",
+  "requested_model_revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "requested_tokenizer_revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "resolved_device": "cuda",
+  "resolved_dtype": "torch.float16",
+  "schema_version": 1,
+  "source_config": null,
+  "timing_scope": "synchronized model forwards; loading, tokenization, transfer, and decode preparation excluded",
+  "tokenizer_class": "Qwen2Tokenizer",
+  "tokenizer_revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "use_cache": true,
+  "warmup_runs_per_phase": 5
+}

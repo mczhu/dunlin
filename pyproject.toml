@@ -1,0 +1,22 @@
+[project]
+name = "dunlin"
+version = "0.1.0"
+description = "Reproducible experiments in transformer inference systems."
+readme = "README.md"
+authors = [{ name = "Mengchen Zhu" }]
+license = "Apache-2.0"
+requires-python = ">=3.13"
+dependencies = [
+    "matplotlib>=3.11.1",
+    "pandas>=3.0.5",
+    "safetensors>=0.8.0",
+    "torch>=2.13.0",
+    "transformers>=5.16.1",
+]
+
+[build-system]
+requires = ["setuptools>=80"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

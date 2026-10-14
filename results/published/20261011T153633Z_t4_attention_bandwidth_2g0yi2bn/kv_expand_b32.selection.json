@@ -1,0 +1,21 @@
+{
+  "batch_size": 32,
+  "kernel_name": "void at::native::elementwise_kernel<(int)128, (int)2, void at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase &)::[lambda() (instance 3)]::operator ()() const::[lambda() (instance 7)]::operator ()() const::[lambda(float) (instance 1)]>(at::TensorIteratorBase &, const T1 &)::[lambda(int) (instance 1)]>(int, T3)",
+  "kernel_id": "0",
+  "grid": [
+    56112,
+    1,
+    1
+  ],
+  "selection_validated": true,
+  "validated_workload_runs": [
+    "/capture/project/runs/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_expand_b32_workloads/20261011T155843Z_profile_forward_phases_8d0e93c8",
+    "/capture/project/runs/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_expand_b32_workloads/20261011T160016Z_profile_forward_phases_94d2fe30",
+    "/capture/project/runs/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_expand_b32_workloads/20261011T160150Z_profile_forward_phases_5dcaacbe",
+    "/capture/project/runs/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_expand_b32_workloads/20261011T160324Z_profile_forward_phases_05e2c74c",
+    "/capture/project/runs/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_expand_b32_workloads/20261011T160458Z_profile_forward_phases_35890d32",
+    "/capture/project/runs/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_expand_b32_workloads/20261011T160632Z_profile_forward_phases_b4efa07e",
+    "/capture/project/runs/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_expand_b32_workloads/20261011T160806Z_profile_forward_phases_fe7ea97c",
+    "/capture/project/runs/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/kv_expand_b32_workloads/20261011T160939Z_profile_forward_phases_fe6dea0a"
+  ]
+}

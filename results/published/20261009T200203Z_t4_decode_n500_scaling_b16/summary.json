@@ -1,0 +1,238 @@
+{
+  "adjacent_doublings": [
+    {
+      "below_plateau_threshold": false,
+      "latency_increased": true,
+      "lower_batch": 8,
+      "lower_run_id": "20261009T200203Z_t4_decode_n500_b8",
+      "threshold_sensitivity": {
+        "0.1": false,
+        "0.25": false,
+        "0.5": false
+      },
+      "throughput_gain_fraction": 0.7931808554029334,
+      "upper_batch": 16,
+      "upper_run_id": "20261009T200203Z_t4_decode_n500_b16",
+      "weakened_scaling_candidate": false
+    }
+  ],
+  "analysis_source_sha256": {
+    "experiments/analyze_decode_scaling.py": "db261fb6de64333cf4237a1e9f28fe7043e7cbedacd845bf7df400e9e0dad445",
+    "src/dunlin/decode_scaling.py": "56fad8865a834cbc8094f44265ab68279ce90668ff44f0252a3d716808636f22",
+    "src/dunlin/matrix_results.py": "48e06607a59a8a5793e0bf22578ee375ab1706b78c3d9c5c47c37cf5a4e85d35"
+  },
+  "config": {
+    "attention_implementation": "sdpa",
+    "batch_size": 8,
+    "compiled": false,
+    "decode_cache_policy": "fresh prompt prefill before each timed decode forward",
+    "decode_tokens_per_request": 1,
+    "experiment": "batched_forward_phases",
+    "formatted_prompt_sha256": "d8d011becd9ed7e4c9a231c863d2c9fd247d32ca05814aedd63d5b45ba9041f4",
+    "input_token_ids_sha256": "da5961ea2dc2ea7ceeadf27e017be9790e18ab41bb761834f78d88eb57449f4e",
+    "input_tokens_per_request": 500,
+    "logits_to_keep": 1,
+    "measured_runs_per_phase": 30,
+    "metric_definitions": {
+      "decode_aggregate_tokens_per_second": {
+        "formula": "batch_size / median_cached_decode_forward_latency_seconds",
+        "unit": "decoded tokens/second"
+      },
+      "median_cached_decode_forward_latency_seconds": {
+        "formula": "median(cached_decode latency_seconds)",
+        "unit": "seconds"
+      },
+      "median_prefill_forward_latency_seconds": {
+        "formula": "median(prefill latency_seconds)",
+        "unit": "seconds"
+      },
+      "prefill_aggregate_prompt_tokens_per_second": {
+        "formula": "batch_size * input_tokens_per_request / median_prefill_forward_latency_seconds",
+        "unit": "prompt tokens/second"
+      }
+    },
+    "metric_definitions_version": "batched_forward_phase_metrics_v1",
+    "model_class": "Qwen2ForCausalLM",
+    "model_dimensions": {
+      "head_dim": 64,
+      "hidden_size": 896,
+      "intermediate_size": 4864,
+      "num_attention_heads": 14,
+      "num_hidden_layers": 24,
+      "num_key_value_heads": 2,
+      "vocab_size": 151936
+    },
+    "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+    "model_revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "output_root": "/capture/project/runs",
+    "phases": [
+      "cached_decode"
+    ],
+    "prompt_recipe": "generate.BENCHMARK_PROMPT with Qwen user chat template, generation prompt, left truncation",
+    "prompt_recipe_id": "city_planning_qwen_chat_v1",
+    "prompt_text_sha256": "9331644019996a4599cc0f38179b836888b5441ef578b9f893999cfd93c11360",
+    "requested_device": "cuda:0",
+    "requested_dtype": "float16",
+    "requested_model_revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "requested_tokenizer_revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "resolved_device": "cuda:0",
+    "resolved_dtype": "torch.float16",
+    "schema_version": 1,
+    "source_config": "/capture/project/configs/batch_context.toml",
+    "timing_scope": "synchronized model forwards; loading, tokenization, transfer, and decode preparation excluded",
+    "tokenizer_class": "Qwen2Tokenizer",
+    "tokenizer_revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "use_cache": true,
+    "warmup_runs_per_phase": 5
+  },
+  "environment": {
+    "architecture": "x86_64",
+    "backend": "cuda",
+    "cpu_processor": "x86_64",
+    "dedicated_device_memory_bytes": 15637086208,
+    "device": "cuda:0",
+    "device_name": "Tesla T4",
+    "dtype": "torch.float16",
+    "git_commit": "f463d263e63b234e897df98f4d71f9a5378f0fc0",
+    "git_dirty": false,
+    "nvidia_driver_version": "595.91.07",
+    "os_release": "7.0.0-1013-aws",
+    "platform": "Linux-7.0.0-1013-aws-x86_64-with-glibc2.39",
+    "python_executable": "/capture/project/.venv/bin/python",
+    "python_version": "3.14.7",
+    "runtime_settings": {
+      "CUDA_VISIBLE_DEVICES": null,
+      "OMP_NUM_THREADS": null,
+      "PYTORCH_ENABLE_MPS_FALLBACK": null,
+      "cuda_matmul_allow_bf16_reduced_precision_reduction": true,
+      "cuda_matmul_allow_fp16_reduced_precision_reduction": true,
+      "cuda_matmul_allow_tf32": false,
+      "cudnn_allow_tf32": true,
+      "float32_matmul_precision": "highest",
+      "torch_num_interop_threads": 2,
+      "torch_num_threads": 2
+    },
+    "schema_version": 2,
+    "system_physical_memory_bytes": 16550289408,
+    "torch_cuda_build_version": "13.0",
+    "torch_version": "2.13.0+cu130",
+    "transformers_version": "5.16.1",
+    "uv_lock_sha256": "5da14854da7f2586cd28aa8294dfad28d3193afc57ad6a8eeda24a664ebb8aa9",
+    "wsl": false
+  },
+  "interpretation_limit": "Candidates require independent replication; no resource bottleneck is established.",
+  "kind": "fixed_context_decode_scaling_analysis",
+  "metric_definitions": {
+    "spread": "inclusive sample p10/p90; not confidence intervals",
+    "throughput_gain_fraction": "upper tokens_per_second / lower tokens_per_second - 1",
+    "tokens_per_second": "batch_size / median(latency_seconds)"
+  },
+  "points": [
+    {
+      "batch_size": 8,
+      "latency_seconds": [
+        0.02830104700001357,
+        0.028965052000103242,
+        0.02887418700015587,
+        0.028916302999959953,
+        0.028892677000158073,
+        0.028429902999960177,
+        0.028773297999805436,
+        0.028787720000082118,
+        0.028322512000158895,
+        0.029049351999901774,
+        0.02899237099995844,
+        0.02826051799979723,
+        0.028377905000070314,
+        0.028292812000017875,
+        0.02815891099999135,
+        0.02857217199994011,
+        0.028406325999867477,
+        0.028282551000074818,
+        0.0281073149999429,
+        0.028043499999967025,
+        0.02819437899984223,
+        0.028239240000175414,
+        0.028333336000059717,
+        0.029039963000059288,
+        0.029402122999954372,
+        0.028721113000074183,
+        0.028446859000041513,
+        0.02911904300003698,
+        0.02862931699996807,
+        0.0284861490001731
+      ],
+      "max_seconds": 0.029402122999954372,
+      "median_seconds": 0.028466504000107307,
+      "min_seconds": 0.028043499999967025,
+      "p10_seconds": 0.02819083219985714,
+      "p90_seconds": 0.029040901900043537,
+      "run_dir": "results/published/20261009T200203Z_t4_decode_n500_b8",
+      "run_id": "20261009T200203Z_t4_decode_n500_b8",
+      "sample_count": 30,
+      "started_at_utc": "2026-10-09T20:02:53+00:00",
+      "tokens_per_second": 281.0320508612453
+    },
+    {
+      "batch_size": 16,
+      "latency_seconds": [
+        0.03176556700009314,
+        0.031879760999800055,
+        0.031735387000026094,
+        0.03156936899995344,
+        0.03160598099998424,
+        0.03172329400013041,
+        0.032019321999996464,
+        0.03133558399986214,
+        0.03155657299998893,
+        0.031203089999962685,
+        0.032125240000141275,
+        0.031805957999949896,
+        0.03195032099984019,
+        0.03168450099997244,
+        0.031686249999893334,
+        0.031764072999976634,
+        0.04057770800000071,
+        0.031996745000014926,
+        0.03940771899988249,
+        0.03197118200000659,
+        0.03179390299987972,
+        0.031848453000066,
+        0.031591024999897854,
+        0.03160202599997319,
+        0.0323872169999504,
+        0.03168099799995616,
+        0.03167088400005014,
+        0.031541656999934276,
+        0.03202180100015539,
+        0.03141458599998259
+      ],
+      "max_seconds": 0.04057770800000071,
+      "median_seconds": 0.031749730000001364,
+      "min_seconds": 0.031203089999962685,
+      "p10_seconds": 0.03152894989993911,
+      "p90_seconds": 0.03215143770012219,
+      "run_dir": "results/published/20261009T200203Z_t4_decode_n500_b16",
+      "run_id": "20261009T200203Z_t4_decode_n500_b16",
+      "sample_count": 30,
+      "started_at_utc": "2026-10-09T20:09:44+00:00",
+      "tokens_per_second": 503.9412933590085
+    }
+  ],
+  "publication_annotation": "Published paths and input/code hashes supplement the saved-data analysis.",
+  "schema_version": 1,
+  "source_input_sha256": {
+    "results/published/20261009T200203Z_t4_decode_n500_b16/config.resolved.json": "02302ed742e23db3d1c064b74c581465acbae5944fa1bf81caa0459b5562d44e",
+    "results/published/20261009T200203Z_t4_decode_n500_b16/environment.json": "a1d13c716f8511d849f4352443f85877f5b2449b2af29f478be685bab8aab74b",
+    "results/published/20261009T200203Z_t4_decode_n500_b16/manifest.json": "555dc5e8208e08e6455c23e8d34df6dc1e56930b26a4fdfbe9fa791bcd58fb6c",
+    "results/published/20261009T200203Z_t4_decode_n500_b16/measurements.csv": "386d435143288c913cbaf55cbd2f47e3c3b216b38f89276e1d4b8afdb5dea2d1",
+    "results/published/20261009T200203Z_t4_decode_n500_b8/config.resolved.json": "fe3dd0f02b19ba5c882b0cebf0fbc7ba0c34ca7caa909ffdf9472973d38079c8",
+    "results/published/20261009T200203Z_t4_decode_n500_b8/environment.json": "a1d13c716f8511d849f4352443f85877f5b2449b2af29f478be685bab8aab74b",
+    "results/published/20261009T200203Z_t4_decode_n500_b8/manifest.json": "77c15950a99ddf2af39583e5cb10397c99a7939c49f63634f41f6d454fe09435",
+    "results/published/20261009T200203Z_t4_decode_n500_b8/measurements.csv": "d151dd4b300125d33f650b519af4fecf1f1dfab1e51ecfce4ed0d49b39043444"
+  },
+  "source_run_ids_in_supplied_order": [
+    "20261009T200203Z_t4_decode_n500_b8",
+    "20261009T200203Z_t4_decode_n500_b16"
+  ]
+}

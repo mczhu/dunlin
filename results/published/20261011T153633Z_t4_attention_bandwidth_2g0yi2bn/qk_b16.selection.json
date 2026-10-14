@@ -1,0 +1,21 @@
+{
+  "batch_size": 16,
+  "kernel_name": "void gemv2T_kernel_val<int, int, float, float, float, float, (int)128, (int)16, (int)2, (int)2, (bool)0, (bool)0, cublasGemvParamsEx<int, cublasGemvTensorStridedBatched<const float>, cublasGemvTensorStridedBatched<const float>, cublasGemvTensorStridedBatched<float>, float>>(T13, T6, T6)",
+  "kernel_id": "0",
+  "grid": [
+    63,
+    1,
+    224
+  ],
+  "selection_validated": true,
+  "validated_workload_runs": [
+    "/capture/project/runs/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b16_workloads/20261011T153639Z_profile_forward_phases_7112a2df",
+    "/capture/project/runs/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b16_workloads/20261011T153713Z_profile_forward_phases_45a769e7",
+    "/capture/project/runs/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b16_workloads/20261011T153746Z_profile_forward_phases_40a42cdc",
+    "/capture/project/runs/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b16_workloads/20261011T153819Z_profile_forward_phases_f4e1c293",
+    "/capture/project/runs/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b16_workloads/20261011T153853Z_profile_forward_phases_dd77ee3a",
+    "/capture/project/runs/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b16_workloads/20261011T153926Z_profile_forward_phases_bc084076",
+    "/capture/project/runs/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b16_workloads/20261011T153959Z_profile_forward_phases_b95dd243",
+    "/capture/project/runs/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/qk_b16_workloads/20261011T154033Z_profile_forward_phases_717c207f"
+  ]
+}

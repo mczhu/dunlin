@@ -1,0 +1,178 @@
+{
+  "capture": {
+    "cache_control": "none",
+    "clock_control": "none",
+    "device": "0",
+    "kernel_name_base": "demangled",
+    "launch_count": 1,
+    "metrics": [
+      "gpu__time_duration.sum",
+      "dram__bytes_read.sum",
+      "dram__bytes_write.sum",
+      "dram__throughput.avg.pct_of_peak_sustained_elapsed",
+      "lts__throughput.avg.pct_of_peak_sustained_elapsed",
+      "lts__t_sector_hit_rate.pct",
+      "l1tex__throughput.avg.pct_of_peak_sustained_elapsed",
+      "sm__throughput.avg.pct_of_peak_sustained_elapsed"
+    ],
+    "nvtx_include": "cached_decode_forward/",
+    "range_filter": "::2",
+    "rename_kernels": "off",
+    "replay_mode": "application",
+    "sections": [
+      "LaunchStats"
+    ]
+  },
+  "kind": "attention_bandwidth_capture",
+  "migration": {
+    "created_at_utc": "2026-10-12T00:30:15.245659+00:00",
+    "input_sha256": {
+      "commands.sh": "f403079b6b1b3b3af7763b4c1e7ee65aef84e2e92ee85e2e82f4b8dacfe5305c",
+      "git-commit.txt": "c177fb91fd6d6b87efa0646b22620598115fc4c45662ec76b33dad317a0200cb",
+      "git-status.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "settings.txt": "41efbe84062a9d95fb2707358a7474ef4c618ac16baf40868a702d72c2a96c17",
+      "status.txt": "37a40f08d8548dba289b9b0bb35bcf63b359f6d37ee86044ebc6b6da080b9ec1",
+      "uv.lock": "5da14854da7f2586cd28aa8294dfad28d3193afc57ad6a8eeda24a664ebb8aa9"
+    },
+    "method": "capture options from retained commands; expected selectors/grids from original committed source",
+    "migration_script_sha256": "7a0b32fdb72439d4651eb4f77d191086bbc80819002abcd05fb659673fe07371",
+    "original_input_sha256": {
+      "commands.sh": "594d15413f7bf7f2246aa5f3fa4cc4265b066bff61f87395955e34a29484f212",
+      "git-commit.txt": "c177fb91fd6d6b87efa0646b22620598115fc4c45662ec76b33dad317a0200cb",
+      "git-status.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "settings.txt": "26f4c3c8b04072fd54ac181d99fcb0fed137e3d019c4e5ca6c3af09122fcfae0",
+      "status.txt": "37a40f08d8548dba289b9b0bb35bcf63b359f6d37ee86044ebc6b6da080b9ec1",
+      "uv.lock": "5da14854da7f2586cd28aa8294dfad28d3193afc57ad6a8eeda24a664ebb8aa9"
+    },
+    "publication_annotation": "original_input_sha256 retains historical migration inputs; input_sha256 identifies the published copies. Capture and original migration were not rerun.",
+    "source_git_commit": "4ac4f6e75a2a6772d0c4300aa614b140d9c7ac94",
+    "source_script_path": "experiments/profile_attention_bandwidth.py",
+    "source_script_sha256": "1121b03dac72167e632431cf81ad24b0d9eeb95f136371beec7d526f78688a22"
+  },
+  "points": [
+    {
+      "batch_size": 16,
+      "expected_grid": [
+        63,
+        1,
+        224
+      ],
+      "kernel": "qk",
+      "launch_skip": 0,
+      "selector_regex": "gemv2T_kernel_val"
+    },
+    {
+      "batch_size": 32,
+      "expected_grid": [
+        63,
+        1,
+        448
+      ],
+      "kernel": "qk",
+      "launch_skip": 0,
+      "selector_regex": "gemv2T_kernel_val"
+    },
+    {
+      "batch_size": 16,
+      "expected_grid": [
+        28056,
+        1,
+        1
+      ],
+      "kernel": "kv_expand",
+      "launch_skip": 0,
+      "selector_regex": "elementwise_kernel<(?:\\(int\\))?128, (?:\\(int\\))?2,.*direct_copy_kernel_cuda"
+    },
+    {
+      "batch_size": 32,
+      "expected_grid": [
+        56112,
+        1,
+        1
+      ],
+      "kernel": "kv_expand",
+      "launch_skip": 0,
+      "selector_regex": "elementwise_kernel<(?:\\(int\\))?128, (?:\\(int\\))?2,.*direct_copy_kernel_cuda"
+    },
+    {
+      "batch_size": 16,
+      "expected_grid": [
+        7014,
+        1,
+        1
+      ],
+      "kernel": "scale",
+      "launch_skip": 3,
+      "selector_regex": "AUnaryFunctor<float.*MulFunctor<float"
+    },
+    {
+      "batch_size": 32,
+      "expected_grid": [
+        14028,
+        1,
+        1
+      ],
+      "kernel": "scale",
+      "launch_skip": 3,
+      "selector_regex": "AUnaryFunctor<float.*MulFunctor<float"
+    },
+    {
+      "batch_size": 16,
+      "expected_grid": [
+        2,
+        1,
+        224
+      ],
+      "kernel": "av",
+      "launch_skip": 0,
+      "selector_regex": "internal::gemvx::kernel"
+    },
+    {
+      "batch_size": 32,
+      "expected_grid": [
+        2,
+        1,
+        448
+      ],
+      "kernel": "av",
+      "launch_skip": 0,
+      "selector_regex": "internal::gemvx::kernel"
+    },
+    {
+      "batch_size": 16,
+      "expected_grid": [
+        2004,
+        1,
+        1
+      ],
+      "kernel": "kv_convert",
+      "launch_skip": 5,
+      "selector_regex": "unrolled_elementwise_kernel<.*direct_copy_kernel_cuda"
+    },
+    {
+      "batch_size": 32,
+      "expected_grid": [
+        4008,
+        1,
+        1
+      ],
+      "kernel": "kv_convert",
+      "launch_skip": 5,
+      "selector_regex": "unrolled_elementwise_kernel<.*direct_copy_kernel_cuda"
+    }
+  ],
+  "preflight": false,
+  "record_origin": "legacy_migration",
+  "schema_version": 1,
+  "source_mode": "strict",
+  "workload": {
+    "baseline_runs": {
+      "16": "/capture/project/results/published/20261009T215054Z_t4_decode_n500_b16",
+      "32": "/capture/project/results/published/20261009T215054Z_t4_decode_n500_b32"
+    },
+    "phase": "cached_decode",
+    "python": "/capture/project/.venv/bin/python",
+    "runner": "experiments/profile_forward_phases.py",
+    "torch_profiler_enabled": false
+  }
+}

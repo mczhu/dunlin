@@ -1,0 +1,19 @@
+{
+  "artifacts": [
+    "config.resolved.json",
+    "environment.json",
+    "measurements.csv",
+    "summary.json",
+    "stdout.log"
+  ],
+  "experiment": "batched_forward_phases",
+  "failure": null,
+  "finished_at_utc": "2026-10-03T15:03:27+00:00",
+  "linked_baseline_run_id": null,
+  "methodology_version": "batched_forward_phases_v1",
+  "run_id": "n32_b8",
+  "run_kind": "benchmark",
+  "schema_version": 1,
+  "started_at_utc": "2026-10-03T15:03:20+00:00",
+  "status": "complete"
+}

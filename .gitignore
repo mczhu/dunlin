@@ -1,0 +1,29 @@
+# Python environment and build outputs
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Local experiment outputs and caches
+runs/
+.cache/
+hf_cache/
+model_cache/
+
+# Local environment and operating-system files
+.env
+.env.local
+.DS_Store
+
+# Downloaded weights and native profiler reports
+*.safetensors
+*.gguf
+*.pt
+*.pth
+*.nsys-rep
+*.ncu-rep
+*.qdrep
+
+# Selected reports and evidence under results/ are deliberately tracked.

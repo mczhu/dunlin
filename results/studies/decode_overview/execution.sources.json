@@ -1,0 +1,13 @@
+{
+  "matplotlib_version": "3.11.1",
+  "plot_script_sha256": "36595b2c020d81603dcf219acd1505bf6532fcc829cbfa7f18e9f5b3dfb47f92",
+  "publication_eligible": true,
+  "scope": "Recorded forward device execution by operator ancestry; gaps excluded; one trace per batch",
+  "source_mode": "strict",
+  "source_run_ids": [
+    "20261010T131445Z_t4_decode_attribution_n500_profile_b16",
+    "20261010T131445Z_t4_decode_attribution_n500_profile_b32"
+  ],
+  "summary_path": "results/studies/dense_execution_attention/summary.json",
+  "summary_sha256": "b75ca619f777aec319f81b7c0679aec54daac27f403bd967ed39dd057f9b9014"
+}

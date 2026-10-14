@@ -1,0 +1,21 @@
+{
+  "batch_size": 16,
+  "kernel_name": "void at::native::vectorized_elementwise_kernel<(int)4, at::native::AUnaryFunctor<float, float, float, at::native::binary_internal::MulFunctor<float>>, std::array<char *, (unsigned long)2>>(int, T2, T3)",
+  "kernel_id": "0",
+  "grid": [
+    7014,
+    1,
+    1
+  ],
+  "selection_validated": true,
+  "validated_workload_runs": [
+    "/capture/project/runs/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/scale_b16_workloads/20261011T161114Z_profile_forward_phases_baaab462",
+    "/capture/project/runs/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/scale_b16_workloads/20261011T161234Z_profile_forward_phases_c495b186",
+    "/capture/project/runs/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/scale_b16_workloads/20261011T161354Z_profile_forward_phases_21e4be69",
+    "/capture/project/runs/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/scale_b16_workloads/20261011T161514Z_profile_forward_phases_3bf84633",
+    "/capture/project/runs/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/scale_b16_workloads/20261011T161633Z_profile_forward_phases_b3c806ba",
+    "/capture/project/runs/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/scale_b16_workloads/20261011T161753Z_profile_forward_phases_65e0a004",
+    "/capture/project/runs/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/scale_b16_workloads/20261011T161913Z_profile_forward_phases_ac087184",
+    "/capture/project/runs/20261011T153633Z_t4_attention_bandwidth_2g0yi2bn/scale_b16_workloads/20261011T162033Z_profile_forward_phases_8d7e5485"
+  ]
+}

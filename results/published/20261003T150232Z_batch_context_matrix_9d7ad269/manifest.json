@@ -1,0 +1,140 @@
+{
+  "artifacts": [
+    "config.resolved.json",
+    "environment.json",
+    "summary.json",
+    "stdout.log"
+  ],
+  "experiment": "batch_context_matrix",
+  "failure": null,
+  "finished_at_utc": "2026-10-03T15:07:21+00:00",
+  "linked_baseline_run_id": null,
+  "matrix_points": [
+    {
+      "batch_size": 1,
+      "context_length": 32,
+      "run_id": "n32_b1",
+      "status": "complete"
+    },
+    {
+      "batch_size": 2,
+      "context_length": 32,
+      "run_id": "n32_b2",
+      "status": "complete"
+    },
+    {
+      "batch_size": 4,
+      "context_length": 32,
+      "run_id": "n32_b4",
+      "status": "complete"
+    },
+    {
+      "batch_size": 8,
+      "context_length": 32,
+      "run_id": "n32_b8",
+      "status": "complete"
+    },
+    {
+      "batch_size": 1,
+      "context_length": 64,
+      "run_id": "n64_b1",
+      "status": "complete"
+    },
+    {
+      "batch_size": 2,
+      "context_length": 64,
+      "run_id": "n64_b2",
+      "status": "complete"
+    },
+    {
+      "batch_size": 4,
+      "context_length": 64,
+      "run_id": "n64_b4",
+      "status": "complete"
+    },
+    {
+      "batch_size": 8,
+      "context_length": 64,
+      "run_id": "n64_b8",
+      "status": "complete"
+    },
+    {
+      "batch_size": 1,
+      "context_length": 128,
+      "run_id": "n128_b1",
+      "status": "complete"
+    },
+    {
+      "batch_size": 2,
+      "context_length": 128,
+      "run_id": "n128_b2",
+      "status": "complete"
+    },
+    {
+      "batch_size": 4,
+      "context_length": 128,
+      "run_id": "n128_b4",
+      "status": "complete"
+    },
+    {
+      "batch_size": 8,
+      "context_length": 128,
+      "run_id": "n128_b8",
+      "status": "complete"
+    },
+    {
+      "batch_size": 1,
+      "context_length": 250,
+      "run_id": "n250_b1",
+      "status": "complete"
+    },
+    {
+      "batch_size": 2,
+      "context_length": 250,
+      "run_id": "n250_b2",
+      "status": "complete"
+    },
+    {
+      "batch_size": 4,
+      "context_length": 250,
+      "run_id": "n250_b4",
+      "status": "complete"
+    },
+    {
+      "batch_size": 8,
+      "context_length": 250,
+      "run_id": "n250_b8",
+      "status": "complete"
+    },
+    {
+      "batch_size": 1,
+      "context_length": 500,
+      "run_id": "n500_b1",
+      "status": "complete"
+    },
+    {
+      "batch_size": 2,
+      "context_length": 500,
+      "run_id": "n500_b2",
+      "status": "complete"
+    },
+    {
+      "batch_size": 4,
+      "context_length": 500,
+      "run_id": "n500_b4",
+      "status": "complete"
+    },
+    {
+      "batch_size": 8,
+      "context_length": 500,
+      "run_id": "n500_b8",
+      "status": "complete"
+    }
+  ],
+  "methodology_version": "batch_context_matrix_v1",
+  "run_id": "20261003T150232Z_batch_context_matrix_9d7ad269",
+  "run_kind": "benchmark",
+  "schema_version": 2,
+  "started_at_utc": "2026-10-03T15:02:32+00:00",
+  "status": "complete"
+}

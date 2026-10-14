@@ -1,0 +1,14 @@
+{
+  "cache_class": "DynamicCache",
+  "cache_length_after": 501,
+  "cache_length_before": 500,
+  "cuda_kernel_events": 1347,
+  "forward_matches_reference": true,
+  "logits_finite": true,
+  "logits_shape": [
+    8,
+    1,
+    151936
+  ],
+  "profiled_matches_unprofiled": true
+}

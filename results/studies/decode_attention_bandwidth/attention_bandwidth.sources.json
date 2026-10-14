@@ -1,0 +1,7 @@
+{
+  "matplotlib_version": "3.11.1",
+  "plot_script_sha256": "fefe6ddb6a2892b88401cb10f9ac24cc4a3fd2fb2b9afe82d475ac012a7e3d7f",
+  "scope": "One reported launch per kernel/batch; replay passes are not independent samples",
+  "source_session_id": "20261011T153633Z_t4_attention_bandwidth_2g0yi2bn",
+  "summary_sha256": "6291d72e37f496aa9c311114118774883950affdca0dfbf1654cab250b2be591"
+}
