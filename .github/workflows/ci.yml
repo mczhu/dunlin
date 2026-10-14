@@ -13,7 +13,6 @@ jobs:
       HF_HUB_OFFLINE: "1"
       TRANSFORMERS_OFFLINE: "1"
       MPLBACKEND: Agg
-      MPLCONFIGDIR: ${{ runner.temp }}/dunlin-matplotlib
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
@@ -25,4 +24,6 @@ jobs:
       - name: Install locked dependencies
         run: uv sync --locked
       - name: Run selected unit tests
+        env:
+          MPLCONFIGDIR: ${{ runner.temp }}/dunlin-matplotlib
         run: uv run --locked python -m unittest discover -s tests
