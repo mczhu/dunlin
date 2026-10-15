@@ -1,5 +1,7 @@
 # Dunlin
 
+[![CI](https://github.com/mczhu/dunlin/actions/workflows/ci.yml/badge.svg?branch=main&event=push)](https://github.com/mczhu/dunlin/actions/workflows/ci.yml)
+
 **Measuring, understanding, and improving modern AI inference.**
 
 Dunlin builds reproducible experiments to measure transformer inference
