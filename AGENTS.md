@@ -63,3 +63,20 @@ Use [reproduction](docs/reproduce.md) for commands and the
 Use `--require-strict` for official scaling, trace, and bandwidth analysis.
 Historical captures without source-mode fields remain legacy inputs; current
 checks must not be retroactively attributed to them.
+
+## Documentation math on GitHub
+
+- Use fenced `math` blocks for multiline display equations. Keep TeX line breaks,
+  subscripts, alignment markers, and braces inside the fence so Markdown does
+  not interpret them. Do not add `$$` delimiters inside a `math` fence.
+- Use simple inline math; use GitHub's dollar-and-backtick delimiters when TeX
+  overlaps with Markdown syntax.
+- Avoid `\operatorname` in GitHub math: it was rejected by the repository preview.
+  Use `\mathrm` for upright labels, or explain labels in prose.
+- When changing equations, inspect every math block in the affected document and
+  check the GitHub preview before publication. A generic Markdown preview or CI
+  pass does not establish that GitHub rendered the math correctly. Preserve
+  equations and measured values when making formatting fixes.
+- Publication from the private preparation repository enforces a deterministic
+  check of these math rules before export. Retain the GitHub visual review.
+- Follow [GitHub's math formatting guide](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions).

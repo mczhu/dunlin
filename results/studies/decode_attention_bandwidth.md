@@ -68,18 +68,18 @@ Thus $D=H_qd=896$ and $H_q/H_{kv}=7$: each KV head is expanded to seven
 query heads in the inferred math-attention path. For one layer's cached-decode
 step, the predicted logical tensor shapes are:
 
-$$
+```math
 \begin{aligned}
-\operatorname{shape}(Q) &= [B,H_q,1,d], \\
-\operatorname{shape}(K)=\operatorname{shape}(V) &= [B,H_{kv},S,d], \\
-\operatorname{shape}(K_{\mathrm{expanded}})
-  =\operatorname{shape}(V_{\mathrm{expanded}}) &= [B,H_q,S,d], \\
-\operatorname{shape}(QK^\top)
-  =\operatorname{shape}(\text{attention weights}) &= [B,H_q,1,S], \\
-\operatorname{shape}(\text{attention weights}\times V_{\mathrm{expanded}})
+\mathrm{shape}(Q) &= [B,H_q,1,d], \\
+\mathrm{shape}(K)=\mathrm{shape}(V) &= [B,H_{kv},S,d], \\
+\mathrm{shape}(K_{\mathrm{expanded}})
+  =\mathrm{shape}(V_{\mathrm{expanded}}) &= [B,H_q,S,d], \\
+\mathrm{shape}(QK^\top)
+  =\mathrm{shape}(\text{attention weights}) &= [B,H_q,1,S], \\
+\mathrm{shape}(\text{attention weights}\times V_{\mathrm{expanded}})
   &= [B,H_q,1,d].
 \end{aligned}
-$$
+```
 
 These are predicted logical shapes from the workload and implementation, not
 shapes recorded by the profiler. Transposes and flattened batch/head dimensions
@@ -207,7 +207,7 @@ behavior can change the counter values.
 
 For the FP16 down projection, let $s_m=2$ bytes per element:
 
-$$
+```math
 \begin{aligned}
 T_{\mathrm{down}}(B)
   &= \underbrace{s_m ID}_{\text{fixed weights}}
@@ -216,7 +216,7 @@ T_{\mathrm{down}}(16) &= 8{,}900{,}608\ \mathrm{bytes}, \\
 T_{\mathrm{down}}(32) &= 9{,}084{,}928\ \mathrm{bytes}, \\
 \frac{T_{\mathrm{down}}(32)}{T_{\mathrm{down}}(16)} &\approx 1.021.
 \end{aligned}
-$$
+```
 
 The weights contribute $8{,}716{,}288$ bytes at either batch size. Gate and up
 have the same matrix size and input/output element counts as down, so the three
@@ -235,7 +235,7 @@ and FP32 product operands with $s_a=4$ bytes per element. These are the existing
 supported by [PyTorch's pinned math implementation](https://github.com/pytorch/pytorch/blob/v2.13.0/aten/src/ATen/native/transformers/attention.cpp#L798-L858),
 not recorded operand-dtype measurements. The read-once/write-once counts are:
 
-$$
+```math
 \begin{aligned}
 T_{QK^\top}(B)
   &= s_a B H_q\bigl(\underbrace{d}_{Q}
@@ -248,7 +248,7 @@ T_{AV}(B)
 \frac{T_{QK^\top}(32)}{T_{QK^\top}(16)}
   &= \frac{T_{AV}(32)}{T_{AV}(16)} = 2.
 \end{aligned}
-$$
+```
 
 Each product has 29.236 / 58.471 decimal MB of logical operand traffic at
 B=16/32. This excludes expansion, conversion, scaling and softmax traffic;
