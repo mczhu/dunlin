@@ -17,7 +17,7 @@ shares do not establish attention's causal contribution to benchmark latency.
 
 ## Execution and gaps
 
-![Recorded device execution at B=16 and B=32, with math SDPA occupying 70.8% and 79.0%](decode_overview/execution.png)
+<a href="decode_overview/execution.png"><img src="decode_overview/execution.png" alt="Recorded device execution at B=16 and B=32, with math SDPA occupying 70.8% and 79.0%" width="520"></a>
 
 This plot partitions recorded device execution, excluding gaps.
 
@@ -82,7 +82,7 @@ documents the selected names, skips, grids, and mapping limits.
 
 ## Work model and interpretation
 
-![Modeled matrix FLOPs per layer per request: MLP projections require about 14.6 times the arithmetic of QKᵀ and AV](dense_execution_attention/matrix_arithmetic.png)
+<a href="dense_execution_attention/matrix_arithmetic.png"><img src="dense_execution_attention/matrix_arithmetic.png" alt="Modeled matrix FLOPs per layer per request: MLP projections require about 14.6 times the arithmetic of QKᵀ and AV" width="520"></a>
 
 The plot groups modeled FLOPs into attention products (QKᵀ and AV), attention
 projections (Q/K/V and output), and MLP projections (gate/up and down). These
